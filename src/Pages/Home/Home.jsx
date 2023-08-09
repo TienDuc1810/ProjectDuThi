@@ -1,11 +1,17 @@
+import BannerSlide from '../../Components/BannerSlide/BannerSlide';
 import './Home.scss';
 
 const Home = () => {
-    return(
-        <>
-            <h2>Have a nice day.</h2>
-        </>
-    )
-}
+   /**
+    * l - large - desktop
+    * m - medium - tablet
+    * s - small - mobile
+    */
+   return (
+      <div className="container">
+         <BannerSlide />
+      </div>
+   );
+};
 
 export default Home;
