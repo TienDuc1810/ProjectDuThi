@@ -3,7 +3,7 @@ import './Home.scss';
 const Home = () => {
     return(
         <>
-            <h2>Have a nice day.</h2>
+            <h2>Have a nice dayy.</h2>
         </>
     )
 }
