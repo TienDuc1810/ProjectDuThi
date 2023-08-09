@@ -1,9 +1,9 @@
-import './Button.scss';
+import './Home.scss';
 
 const Home = () => {
     return(
         <>
-            <p>Have a nice day.</p>
+            <h2>Have a nice day.</h2>
         </>
     )
 }
