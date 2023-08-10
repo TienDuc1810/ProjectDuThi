@@ -58,18 +58,7 @@ const BannerSlide = ({ className }) => {
             </div>
           </SplideSlide>
         ))}
-      </Splide>
-      {/* Pagination dots */}
-      <div className={cx('pagination-dots')}>
-        {images.map((_, index) => (
-          <div
-            key={index}
-            className={cx('pagination-dot', {
-              active: index === splideOptions.slideFocus,
-            })}
-          />
-        ))}
-      </div>
+      </Splide> 
     </div>
   );
 };
