@@ -3,6 +3,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 import styles from './BannerSlide.module.scss';
 import classNames from 'classnames/bind';
+import './PaginationDot.scss'
 
 const cx = classNames.bind(styles);
 const images = [
@@ -36,27 +37,40 @@ const BannerSlide = ({ className }) => {
    };
 
    return (
-      <Splide options={splideOptions} className={cx(className, 'wrapper')}>
-         {images.map((image) => (
-            <SplideSlide key={image.id} className={cx('slide-item')}>
-               <div className={cx('slide-content')}>
-                  <img className={cx('slide-img')} src={image.url} alt={`img ${image.id}`} />
-                  <div className={cx('overlay')}>
-                     <h2 className={cx('overlay-text')} style={{ fontSize: '30px', color: '#dba504' }}>
-                        LIVE NOW
-                     </h2>
-                     <h2 className={cx('overlay-text')} style={{ margin: '30px 0' }}>
-                        {image.match}
-                     </h2>
-                     <div className={cx('button-container')}>
-                        <button className={cx('slide-button', 'outline')}>READ MORE</button>
-                        <button className={cx('slide-button')}>BOOK A TICKET</button>
+      <div className={cx('carousel-wrapper')}>
+         <Splide options={splideOptions} className={cx(className, 'wrapper')}>
+            {images.map((image) => (
+               <SplideSlide key={image.id} className={cx('slide-item')}>
+                  <div className={cx('slide-content')}>
+                     <img className={cx('slide-img')} src={image.url} alt={`img ${image.id}`} />
+                     <div className={cx('overlay')}>
+                        <h2 className={cx('overlay-text')} style={{ fontSize: '30px', color: '#dba504' }}>
+                           LIVE NOW
+                        </h2>
+                        <h2 className={cx('overlay-text')} style={{ margin: '30px 0' }}>
+                           {image.match}
+                        </h2>
+                        <div className={cx('button-container')}>
+                           <button className={cx('slide-button', 'outline')}>READ MORE</button>
+                           <button className={cx('slide-button')}>BOOK A TICKET</button>
+                        </div>
                      </div>
                   </div>
-               </div>
-            </SplideSlide>
-         ))}
-      </Splide>
+               </SplideSlide>
+            ))}
+         </Splide>
+         {/* Pagination dots */}
+         <div className={cx('pagination-dots')}>
+            {images.map((_, index) => (
+               <div
+                  key={index}
+                  className={cx('pagination-dot', {
+                     active: index === splideOptions.slideFocus,
+                  })}
+               />
+            ))}
+         </div>
+      </div>
    );
 };
 
