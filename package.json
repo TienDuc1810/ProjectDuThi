@@ -37,6 +37,7 @@
     "redux": "^4.2.1",
     "sass": "^1.64.2",
     "slick-carousel": "^1.8.1",
+    "sweetalert": "^2.1.2",
     "tippy.js": "^6.3.7",
     "typed.js": "^2.0.16",
     "web-vitals": "^2.1.4"
