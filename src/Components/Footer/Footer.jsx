@@ -63,28 +63,21 @@ const Footer = () => {
                               <span>
                                  <FontAwesomeIcon icon="fa-solid fa-chevron-up" rotation={90} />
                               </span>
-                              About
+                              Club List
                            </Link>
                            <div className={cx('underline')}></div>
                            <Link className={cx('link1')}>
                               <span>
                                  <FontAwesomeIcon icon="fa-solid fa-chevron-up" rotation={90} />
                               </span>
-                              Point Table
+                              Match
                            </Link>
                            <div className={cx('underline')}></div>
                            <Link className={cx('link1')}>
                               <span>
                                  <FontAwesomeIcon icon="fa-solid fa-chevron-up" rotation={90} />
                               </span>
-                              World Cup
-                           </Link>
-                           <div className={cx('underline')}></div>
-                           <Link className={cx('link1')}>
-                              <span>
-                                 <FontAwesomeIcon icon="fa-solid fa-chevron-up" rotation={90} />
-                              </span>
-                              Blog
+                              News
                            </Link>
                            <div className={cx('underline')}></div>
                            <Link className={cx('link1')}>
@@ -102,8 +95,8 @@ const Footer = () => {
                      <div className={cx('content')}>
                         <form className={cx('form')}>
                            <input className={cx('text')} type="text" placeholder="Name" name="name" />
-                           <input className={cx('text')}type="email" placeholder="Email" name="email" />
-                           <input className={cx('submit')}type="submit" value="SEND" />
+                           <input className={cx('text')} type="email" placeholder="Email" name="email" />
+                           <input className={cx('submit')} type="submit" value="SEND" />
                         </form>
                      </div>
                   </Col>

@@ -31,7 +31,7 @@ const BannerSlide = ({ className }) => {
       arrows: false,
       pagination: true,
       autoplay: true,
-      interval: 3000,
+      interval: 5000,
       pauseOnHover: true,
    };
 
@@ -42,11 +42,15 @@ const BannerSlide = ({ className }) => {
                <div className={cx('slide-content')}>
                   <img className={cx('slide-img')} src={image.url} alt={`img ${image.id}`} />
                   <div className={cx('overlay')}>
-                     <h2 className={cx('overlay-text')} style={{fontSize: '30px', color: '#fbc02d'}}>LIVE NOW</h2>
-                     <h2 className={cx('overlay-text')}>{image.match}</h2>
+                     <h2 className={cx('overlay-text')} style={{ fontSize: '30px', color: '#dba504' }}>
+                        LIVE NOW
+                     </h2>
+                     <h2 className={cx('overlay-text')} style={{ margin: '30px 0' }}>
+                        {image.match}
+                     </h2>
                      <div className={cx('button-container')}>
-                        <button className={cx('slide-button')}>READ MORE</button>
-                        <button className={cx('slide-button', 'outline')}>BOOK A TICKET</button>
+                        <button className={cx('slide-button', 'outline')}>READ MORE</button>
+                        <button className={cx('slide-button')}>BOOK A TICKET</button>
                      </div>
                   </div>
                </div>
