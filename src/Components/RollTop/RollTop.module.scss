@@ -1,0 +1,22 @@
+/* RollTop.module.scss */
+.wrapper {
+   position: fixed;
+   bottom: 30px;
+   right: 40px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background-color: #dba504;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transform: scale(0);
+   .icon {
+      margin-bottom: 5px;
+      font-size: 20px;
+   }
+   &.active {
+      transform: scale(1);
+
+   }
+}

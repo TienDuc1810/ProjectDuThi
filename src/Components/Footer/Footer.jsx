@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import classNames from 'classnames/bind';
 import styles from './Footer.module.scss';
@@ -102,6 +103,28 @@ const Footer = () => {
                   </Col>
                </Row>
             </Grid>
+         </div>
+         <div className={cx('underline')}></div>
+         <div className={cx('footer')}>
+            <div className={cx('copyright')}>
+               <p>
+                  © 2023 <a href="#">WeWin.</a> All Rights Reserved.
+               </p>
+            </div>
+            <div className={cx('social')}>
+               <a href="#">
+                  <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
+               </a>
+               <a href="#">
+                  <FontAwesomeIcon icon="fa-brands fa-instagram" />
+               </a>
+               <a href="#">
+                  <FontAwesomeIcon icon="fa-brands fa-twitter" />
+               </a>
+               <a href="#">
+                  <FontAwesomeIcon icon="fa-brands fa-youtube" />
+               </a>
+            </div>
          </div>
       </div>
    );

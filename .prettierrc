@@ -11,7 +11,7 @@
    "requirePragma": false,
    "semi": true,
    "singleQuote": true,
-   "tabWidth": 3,
+   "tabWidth": 2,
    "trailingComma": "all",
    "useTabs": false,
    "vueIndentScriptAndStyle": false,
@@ -46,7 +46,7 @@
             "requirePragma": false,
             "semi": true,
             "singleQuote": true,
-            "tabWidth": 3,
+            "tabWidth": 2,
             "trailingComma": "all",
             "useTabs": false
          }
@@ -66,7 +66,7 @@
             "requirePragma": false,
             "semi": true,
             "singleQuote": true,
-            "tabWidth": 3,
+            "tabWidth": 2,
             "trailingComma": "all",
             "useTabs": false,
             "vueIndentScriptAndStyle": false
@@ -76,7 +76,7 @@
          "files": ["*.c", "*.cpp"],
          "options": {
             "printWidth": 120,
-            "tabWidth": 3,
+            "tabWidth": 2,
             "useTabs": false
          }
       },
@@ -84,7 +84,7 @@
          "files": ["*.cs"],
          "options": {
             "printWidth": 120,
-            "tabWidth": 3,
+            "tabWidth": 2,
             "useTabs": false
          }
       },
@@ -92,7 +92,7 @@
          "files": ["*.java"],
          "options": {
             "printWidth": 120,
-            "tabWidth": 3,
+            "tabWidth": 2,
             "useTabs": false
          }
       },
@@ -108,7 +108,7 @@
          "files": ["*.dart"],
          "options": {
             "printWidth": 120,
-            "tabWidth": 3,
+            "tabWidth": 2,
             "useTabs": false
          }
       },
@@ -116,7 +116,7 @@
          "files": ["*.rb"],
          "options": {
             "printWidth": 120,
-            "tabWidth": 3,
+            "tabWidth": 2,
             "useTabs": false
          }
       }

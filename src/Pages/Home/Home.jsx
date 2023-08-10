@@ -1,6 +1,7 @@
 import Footer from '../../Components/Footer';
-import Header from '../../Components/Header/Header';
+import Header from '../../Components/Header';
 import Main from '../../Components/Main';
+import RollTop from '../../Components/RollTop';
 import './Home.scss';
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
          <Header />
          <Main />
          <Footer />
+         <RollTop />
       </div>
    );
 };
