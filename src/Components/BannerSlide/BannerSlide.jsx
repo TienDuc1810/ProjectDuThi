@@ -6,7 +6,7 @@ import classNames from 'classnames/bind';
 import './PaginationDot.scss';
 
 const cx = classNames.bind(styles);
-const images = [
+const matches = [
   {
     id: 1,
     url: 'https://i2-prod.manchestereveningnews.co.uk/incoming/article26585983.ece/ALTERNATES/s1200/0_GettyImages-1421052908.jpg',
@@ -39,16 +39,16 @@ const BannerSlide = ({ className }) => {
   return (
     <div className={cx('carousel-wrapper')}>
       <Splide options={splideOptions} className={cx(className, 'wrapper')}>
-        {images.map((image) => (
-          <SplideSlide key={image.id} className={cx('slide-item')}>
+        {matches.map((match) => (
+          <SplideSlide key={match.id} className={cx('slide-item')}>
             <div className={cx('slide-content')}>
-              <img className={cx('slide-img')} src={image.url} alt={`img ${image.id}`} />
+              <img className={cx('slide-img')} src={match.url} alt={`img ${match.id}`} />
               <div className={cx('overlay')}>
                 <h2 className={cx('overlay-text')} style={{ fontSize: '30px', color: '#dba504' }}>
                   LIVE NOW
                 </h2>
                 <h2 className={cx('overlay-text')} style={{ margin: '30px 0' }}>
-                  {image.match}
+                  {match.match}
                 </h2>
                 <div className={cx('button-container')}>
                   <button className={cx('slide-button', 'outline')}>READ MORE</button>

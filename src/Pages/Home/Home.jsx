@@ -5,14 +5,14 @@ import RollTop from '../../Components/RollTop';
 import './Home.scss';
 
 const Home = () => {
-   return (
-      <div className="container">
-         <Header />
-         <Main />
-         <Footer />
-         <RollTop />
-      </div>
-   );
+  return (
+    <div className="container">
+      <Header />
+      <Main />
+      <Footer />
+      <RollTop />
+    </div>
+  );
 };
 
 export default Home;

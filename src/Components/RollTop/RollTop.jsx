@@ -23,7 +23,7 @@ const RollTop = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-  
+
   return (
     <div className={cx('wrapper', { active: showBtnScrollTop })}>
       <a href="#" className={cx('icon')}>
