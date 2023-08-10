@@ -1,15 +1,14 @@
-import BannerSlide from '../../Components/BannerSlide/BannerSlide';
+import Footer from '../../Components/Footer';
+import Main from '../../Components/Main';
 import './Home.scss';
 
 const Home = () => {
-   /**
-    * l - large - desktop
-    * m - medium - tablet
-    * s - small - mobile
-    */
+   
    return (
       <div className="container">
-         <BannerSlide />
+         {/**Header */}
+         {/* <Main /> */}
+         <Footer />
       </div>
    );
 };
