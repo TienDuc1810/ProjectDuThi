@@ -1,0 +1,37 @@
+.testimonial {
+    max-width: 1300px;
+    margin: 30px auto;
+    padding: 20px;
+    min-height: 145px;
+
+    .testimonial-profile {
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .testimonial-content {
+        margin-bottom: 10px;
+
+        h3 {
+            text-transform: uppercase;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        li {
+            color: #fbc02d;
+        }
+
+        p {
+            letter-spacing: 0.3px;
+            margin-bottom: 5px;
+        }
+    }
+}

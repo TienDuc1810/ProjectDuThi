@@ -1,0 +1,45 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    h2 {
+      position: relative;
+      font-size: 24px;
+      color: #111111;
+      display: inline-block;
+      text-transform: capitalize;
+      margin-bottom: 24px;
+      font-weight: 600;
+      line-height: 17px;
+      padding-bottom: 10px;
+    }
+    h2::before {
+      background: #999999;
+      width: 100%;
+    }
+    h2::after {
+      background: #dba504;
+      width: 50%;
+    }
+    h2::after,
+    h2::before {
+      height: 4px;
+      left: 0;
+      position: absolute;
+      content: '';
+      bottom: -14px;
+    }
+  }
+  
+  // .underline1 {
+  //    width: 100%;
+  //    height: 3px;
+  //    margin-top: 4px;
+  //    background-color: #a1a1a1;
+  //    .underline2 {
+  //       width: 50%;
+  //       height: 3px;
+  //       background-color: #dba504;
+  //    }
+  // }
+

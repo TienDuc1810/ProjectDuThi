@@ -1,86 +1,68 @@
-import { DownOutlined } from '@ant-design/icons';
-import { faFacebook, faLinkedin, faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faRightToBracket } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Dropdown, Space } from 'antd';
+import React, { useState, useEffect } from 'react';
+import Navbar from '../Navbar/Navbar';
+import imageLogo from '../../Assets/image/logo';
+import styles from './Header.module.scss';
+import classNames from 'classnames/bind';
+import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-import ENG from './ENG.png';
-import VI from './Flag_of_Vietnam.svg.png';
-import './Header.scss';
+import Logout from '../../Pages/Logout/Logout';
+import Buttons from '../Button/Button';
+
+const cx = classNames.bind(styles);
 
 const Header = () => {
+  const [styleHeader, setStyleHeader] = useState(false);
 
-    const items = [
-        {
-            label: (
-                <div className='VI'>
-                    <img src={VI} alt="" />
-                    <a target="_blank" rel="noopener noreferrer" href="#!">
-                        Vietnamese
-                    </a>
-                </div>
-            ),
-            key: '0',
-        },
-        {
-            label: (
-                <div className='ENG'>
-                    <img src={ENG} alt="" />
-                    <a target="_blank" rel="noopener noreferrer" href="#!">
-                        English
-                    </a>
-                </div>
-            ),
-            key: '1',
-        }
-    ];
-
-    const navigate = useNavigate();
-
-    function handleClickLogin(){
-        navigate('/login');
+  const handleScroll = () => {
+    if (window.scrollY <= 0) {
+      setStyleHeader(true);
+    } else {
+      setStyleHeader(false);
     }
+  };
 
-    return (
-        <div className='header'>
-            <div className="header-main">
-                <div className="header-right">
-                    <div className="email">
-                        <FontAwesomeIcon icon={faEnvelope} />
-                        <p>support@wewin.com</p>
-                    </div>
-                    <div className="change-language">
-                        <Dropdown
-                            menu={{
-                                items,
-                            }}
-                            className='dropdown-btn'
-                        >
-                            <a onClick={(e) => e.preventDefault()}>
-                                <Space>
-                                    Change Language
-                                    <DownOutlined />
-                                </Space>
-                            </a>
-                        </Dropdown>
-                    </div>
-                </div>
-                <div className="header-right">
-                    <div className="social">
-                        <FontAwesomeIcon icon={faFacebook} />
-                        <FontAwesomeIcon icon={faSquareInstagram} />
-                        <FontAwesomeIcon icon={faLinkedin} />
-                    </div>
-                    <button className="login-regiter" onClick={handleClickLogin}>
-                        <div className="login">
-                            <FontAwesomeIcon icon={faRightToBracket} />
-                            <p>Login</p>
-                        </div>
-                    </button>
-                </div>
-            </div>
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const navigate = useNavigate();
+
+  function handleLogin() {
+    navigate('/login');
+  }
+
+  function handleRegister() {
+    navigate('/register');
+  }
+
+  return (
+    <header
+      className={cx('header')}
+      style={styleHeader ? { backgroundColor: 'black', transition: 'all 0.3s linear' } : null}
+    >
+      <div className={cx('wrapper')}>
+        <Link to="/">
+          <img src={imageLogo.logo} alt="footballnew" className={cx('logo')} />
+        </Link>
+        <Navbar />
+        <div className={cx('btnnn')}>
+        {JSON.parse(localStorage.getItem('tokens')) ? (
+          <div className="logout">
+            <Logout />
+          </div>
+        ) : (
+          <div className={cx('login-register')}>
+            <Buttons className={cx('btn')} title="Login" onClick={handleLogin} />
+            <Buttons title="Register" onClick={handleRegister} style={{ background: '#f9f9f9', color: '#bd8f04' }} />
+          </div>
+        )}
         </div>
-    )
-}
+      </div>
+    </header>
+  );
+};
 
 export default Header;

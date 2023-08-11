@@ -1,0 +1,127 @@
+.container-match a {
+  text-decoration: none;
+}
+.wrapper {
+  max-width: 1300px;
+  margin: 30px auto;
+  padding: 20px;
+}
+.container-match {
+  max-width: 1300px;
+  margin: 0 auto;
+
+  border: 1px solid red;
+}
+.tab-fixture {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-fixture_header {
+  display: flex;
+  position: relative;
+  padding: 8px;
+}
+
+.tab-fixture_header .link {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: 0.3s ease-in-out;
+}
+.tab-fixture_header .link:hover {
+  color: #fbc02d;
+}
+.tab-fixture_schelude {
+  background-image: url('https://scarletknights.com/images/2023/2/23/Stadium99393939.jpg');
+  width: 100%;
+  margin-top: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  position: relative;
+  z-index: 1;
+  .tabmatch {
+    position: relative;
+    z-index: 2;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+  }
+}
+
+.tab-point {
+  width: 100%;
+}
+
+.tab-point_tables {
+  width: 100%;
+  margin-top: 16px;
+}
+.tables {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+  border: 1px solid #36353552;
+}
+.tables {
+  color: #fbc02d;
+  background-color: black;
+}
+.team {
+  width: 50%;
+}
+.team {
+  position: relative;
+  text-align: center;
+}
+.win-lose {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.more-view {
+  border: 1px solid transparent;
+  text-align: center;
+  background-color: #fbc02d;
+  font-weight: 600;
+  &:hover {
+    background-color: #f3af04;
+    cursor: pointer;
+  }
+}
+
+.link-match {
+    display: inline-block;
+  color: black;
+  transition: 0.3s ease-in-out;
+  width: 100%;
+  padding: 13px 0;
+}
+
+.link-match .team-match {
+  width: 200px;
+}
+@media (max-width: 1023px) {
+  .container-match {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 16px;
+  }
+  .tab-fixture,
+  .tab-point {
+    max-width: 1000px;
+  }
+}

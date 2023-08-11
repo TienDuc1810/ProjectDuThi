@@ -1,0 +1,114 @@
+{
+    "Player": [
+        {
+            "IdPlayer": 1,
+            "namePlayer": "Hugo Lloris",
+            "DatePlayer": "30 / 4, 1992",
+            "Location": "Goalie",
+            "Nationality": "Germany",
+            "Height": "1.87",
+            "Slogan": "If you think two steps ahead, you forget what important in the now.",
+            "Img": "https://static.bongda24h.vn/medias/original/2021/9/22/1_hugololris.jpg"
+        },
+        {
+            "IdPlayer": 40,
+            "namePlayer": "Brandon Austin",
+            "DatePlayer": "10 / 4, 1996",
+            "Location": "DEFENDER",
+            "Nationality": "Denmark",
+            "Height": "1,88",
+            "Slogan": "He who fights monsters should see to it that he himself does not become a monster.",
+            "Img": "https://static.bongda24h.vn/medias/original/2022/10/21/brandon-austin-2110104851.jpg"
+        },
+        {
+            "IdPlayer": 23,
+            "namePlayer": "Pedro Porro",
+            "DatePlayer": "12 / 11, 1998",
+            "Location": "DEFENDER",
+            "Nationality": "France",
+            " Height": "1,78",
+            "Slogan": "we will not repeat the boateng story",
+            "Img": "https://static.bongda24h.vn/medias/original/2022/07/28/pedro-porro_2807134214.jpg"
+        },
+        {
+            "  IdPlayer": 25,
+            "namePlayer": "Japhet Tanganga",
+            " DatePlayer": "28 / 12, 1990",
+            " Location": "DEFENDER",
+            " Nationality": "Spain",
+            " Height": "1,89",
+            " Slogan": "I was training with Cristiano Ronaldo, Kaka, and I was only 16 or 17 years old. I was going 120 percent! It was a dream come true.",
+            " Img": "https://static.bongda24h.vn/medias/original/2021/9/22/25_japhettanganga.jpg"
+        },
+        {
+            " IdPlayer": 34,
+            "  namePlayer": "Serif Nhaga",
+            "DatePlayer": "18 / 10, 2003",
+            " Location": "DEFENDER",
+            " Nationality": "Spain",
+            " Height": "1,75",
+            " Slogan": "I dont know why they put my full name as Alex on FIFA. My name is Alejandro, not Alex Alejandro Balde!.",
+            " Img": "https://static.bongda24h.vn/medias/original/2023/07/04/serif-nhaga-0407113653.jpg"
+        },
+        {
+            " IdPlayer": 17,
+            " namePlayer": "Cristian Romero",
+            "  DatePlayer": "7 / 3, 1999",
+            " Location": "DEFENDER",
+            " Nationality": "Uruguay",
+            " Height": "1.80",
+            " Slogan": "I worked hard to make this opportunity happen. Im very happy and excited. I tried to enjoy it to the fullest.",
+            "Img": "https://static.bongda24h.vn/medias/original/2021/9/22/4_cristianromero.jpg"
+        },
+        {
+            " IdPlayer": 37,
+            " namePlayer": "Cristian Romero",
+            " DatePlayer": "19 / 12, 1996",
+            " Location": "MIDFIELDE",
+            " Nationality": "Ivory Coast",
+            " Height": "1,83",
+            " Slogan": "This quote reflects Kessiés pride in his heritage and his commitment to representing his country with respect and dedication.",
+            " Img": "https://static.bongda24h.vn/medias/original/2021/9/22/4_cristianromero.jpg"
+        },
+        {
+            " IdPlayer": 12,
+            " namePlayer": "Emerson Royal",
+            " DatePlayer": "3 / 1, 2002",
+            " Location": "MIDFIELDER",
+            " Nationality": "Spain",
+            " Height": "1,88",
+            " Slogan": "Nico and Gavi club ship Rip. Hope we get to see them in Spain NT together at some point. They, obv, will remain friends just not in the same club.",
+            " Img": "https://static.bongda24h.vn/medias/original/2021/9/22/12_emersonroyal.jpg"
+        },
+        {
+            " IdPlayer": 29,
+            " namePlayer": "Timothee Pembele",
+            "  DatePlayer": "21 / 8, 1988 ",
+            " Location": "Striker",
+            "  Nationality": "Poland",
+            " Height": "1,85",
+            "  Slogan": "Cows milk and soya milk isnt good for me. Almond milk and rice milk is OK. I dont really drink alcohol, either. Maybe wine but only sometimes.",
+            "  Img": "https://static.bongda24h.vn/medias/original/2021/10/4/timothee-pembele.png"
+        },
+        {
+            " IdPlayer": 25,
+            " namePlayer": "Ben Davies",
+            " DatePlayer": "14 / 12, 1996 ",
+            " Location": "Striker",
+            " Nationality": "Brazil",
+            " Height": "1.76",
+            " Slogan": "You always want to score against the opponent and if its in El Clásico, even more.",
+            " Img": "https://static.bongda24h.vn/medias/original/2021/9/22/33_bendavies.jpg"
+        },
+        {
+            "  IdPlayer": 5,
+            "namePlayer": "Davinson Sanchez",
+            "  DatePlayer": "15 / 5, 1997 ",
+            " Location": "Striker",
+            " Nationality": "France",
+            " Height": "1.78",
+            "  Slogan": "My dream is to play for Barcelona",
+            " Img": "https://static.bongda24h.vn/medias/original/2021/9/22/6_davinsonsanchez.jpg"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 60px 64px;
+}
+.wrapper {
+  margin-top: 80px;
+
+}
+.nav {
+  display: flex;
+  width: 20%;
+  min-width: 300px;
+  justify-content: space-around;
+}
+.nav button {
+  font-size: 1.4em;
+  outline: none;
+  background-color: inherit;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+.nav button:hover {
+  color: #ad8727;
+}
+
+.line {
+  border: 1px solid black;
+}
+.tab-match {
+  background-image: url(/src/Assets/playerdetailsBg.jpg);
+  width: 100%;
+  margin-top: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  animation: opa 0.9s ease-in-out;
+}
+@keyframes opa {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width: 1023px) {
+  .container {
+    padding: 32px;
+  }
+  .nav button {
+    font-size: 1em;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 8px;
+  }
+  .nav button {
+    font-size: 1em;
+  }
+}

@@ -1,10 +1,10 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
-// font 
+// font
 @font-face {
   font-family: 'Inter-Black';
   src: url('./Fonts/Inter-Black.ttf') format('truetype');
@@ -57,6 +57,47 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+   width: 10px;
+   background-color: #111111;
+}
+
+/* Ẩn các chỉ mục của thanh cuộn */
+body::-webkit-scrollbar-thumb {
+   border-radius: 30px;
+   background-color: #dba504;
+}
+
+label,
+button,
+a,
+input[type='submit'] {
+   -webkit-tap-highlight-color: transparent;
+}
+
+button,
+input,
+textarea,
+[tabindex] {
+   outline: none;
+   border: none;
+}
+ul {
+   list-style: none;
+}
+a {
+   color: var(--text-color);
+   text-decoration: none;
+}
+
+::selection {
+   background-color: #dba504;
+   color: white;
 }

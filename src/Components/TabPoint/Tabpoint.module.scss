@@ -1,0 +1,27 @@
+.tables {
+  display: flex;
+  justify-content: space-around;
+  padding: 9px 0;
+  border: 1px solid #36353552;
+}
+.team {
+  width: 50%;
+}
+.win-lose {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.tables.point {
+  color: #535252;
+}
+.index {
+  display: inline-block;
+  width: 1px;
+  margin: 0 30px 0 20px;
+}
+@media (max-width: 739px) {
+  .team-match {
+    width: 100%;
+  }
+}

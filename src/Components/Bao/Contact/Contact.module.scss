@@ -1,0 +1,22 @@
+.wrapper {
+    width: 100%;
+    margin-top: 80px;
+    overflow: hidden;
+    .container {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+}
+
+.title-form {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.rap {
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
