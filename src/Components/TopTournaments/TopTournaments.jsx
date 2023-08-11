@@ -1,18 +1,10 @@
-import AOS from "aos";
-import "aos/dist/aos.css";
 import classNames from 'classnames/bind';
-import React, { useEffect } from "react";
 import { Col, Grid, Row } from '../GridSystem/Grid';
 import Title from '../Title';
 import styles from './TopTournaments.module.scss';
 
 const cx = classNames.bind(styles);
 const TopTournaments = () => {
-
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
 
   return (
     <div className={cx('wrapper')} >
@@ -30,7 +22,6 @@ const TopTournaments = () => {
                 className={cx('img')}
                 src="https://parspng.com/wp-content/uploads/2022/05/Worldcupqatarpng.parspng.com-3.png"
                 alt=""
-                data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
               />
               <div className={cx('trophy-name')}>
                 <h3>Europa League</h3>
@@ -43,7 +34,6 @@ const TopTournaments = () => {
                 className={cx('img')}
                 src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/3508558/coppa-campioni-clipart-xl.png"
                 alt=""
-                data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
               />
               <div className={cx('trophy-name')}>
                 <h3>Champion League</h3>
@@ -56,7 +46,6 @@ const TopTournaments = () => {
                 className={cx('img')}
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Europa_League.svg/1200px-Europa_League.svg.png"
                 alt=""
-                data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
               />
               <div className={cx('trophy-name')}>
                 <h3>Europa League</h3>
@@ -69,7 +58,6 @@ const TopTournaments = () => {
                 className={cx('img')}
                 src="https://i.pinimg.com/originals/f3/7a/21/f37a214bee82fb8097a872dec972d6f1.png"
                 alt=""
-                data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
               />
               <div className={cx('trophy-name')}>
                 <h3>Premier League</h3>
