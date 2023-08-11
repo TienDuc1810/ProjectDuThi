@@ -1,10 +1,16 @@
-import "./App.scss";
-import Home from "./Pages/Home/Home";
+
 import MyRoutes from "./Routes/MyRoutes";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab } from "@fortawesome/free-brands-svg-icons";
-import { far } from "@fortawesome/free-regular-svg-icons";
-import { fas } from "@fortawesome/free-solid-svg-icons";
+
+import { Route, Routes } from 'react-router-dom';
+import './App.scss';
+import Home from './Pages/Home/Home';
+import Login from './Pages/Login/Login';
+import Regiter from './Pages/Regiter/Regiter';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+library.add(fab, far, fas);
 
 library.add(fab, far, fas);
 function App() {
@@ -12,6 +18,12 @@ function App() {
     <div className="App">
       <MyRoutes />
       <Home />
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/regiter" element={<Regiter />}></Route>
+      </Routes>
+
     </div>
   );
 }

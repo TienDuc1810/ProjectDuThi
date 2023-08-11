@@ -11,5 +11,5 @@ const Title = ({ title, className }) => {
       </div>
    );
 };
-
 export default Title;
+

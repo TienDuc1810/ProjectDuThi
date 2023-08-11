@@ -1,0 +1,31 @@
+.header {
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   padding: 14px;
+   background-color: rgba(0, 0, 0, 0.56);
+   backdrop-filter: blur(10px);
+   z-index: 10;
+   .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1300px;
+      margin: 0 auto;
+      .logo {
+         width: 8rem;
+      }
+   }
+}
+
+@media (max-width: 739px) {
+   .header {
+      background-color: #000000;
+      padding: 10px;
+   }
+
+   .logo {
+      width: 7rem;
+   }
+}
