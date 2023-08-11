@@ -14,6 +14,7 @@ const matchFixture = [
     time: 'June 20,19:00',
     stadium: 'Stadium',
     textLink: 'View Statistics',
+    link: '/coming/barvsreal/match',
   },
   {
     nameLeft: 'Juventus',
@@ -21,6 +22,7 @@ const matchFixture = [
     time: 'June 20,23:00',
     stadium: 'Stadium',
     textLink: 'View Statistics',
+    link: '/coming/barvsreal/match',
   },
   {
     nameLeft: 'Barcelona',
@@ -28,6 +30,7 @@ const matchFixture = [
     time: 'June 21,17:00',
     stadium: 'Stadium',
     textLink: 'View Statistics',
+    link: '/coming/barvsreal/match',
   },
   {
     nameLeft: 'Real Madrid',
@@ -35,6 +38,7 @@ const matchFixture = [
     time: 'June 21,21:00',
     stadium: 'Stadium',
     textLink: 'View Statistics',
+    link: '/coming/barvsreal/match',
   },
   {
     nameLeft: 'Juventus',
@@ -42,6 +46,7 @@ const matchFixture = [
     time: 'June 22,15:00',
     stadium: 'Stadium',
     textLink: 'View Statistics',
+    link: '/coming/barvsreal/match',
   },
   {
     nameLeft: 'Man City',
@@ -49,6 +54,7 @@ const matchFixture = [
     time: 'June 22,18:00',
     stadium: 'Stadium',
     textLink: 'View Statistics',
+    link: '/coming/barvsreal/match',
   },
   {
     nameLeft: 'Juventus',
@@ -56,6 +62,7 @@ const matchFixture = [
     time: 'June 24,14:00',
     stadium: 'Stadium',
     textLink: 'View Statistics',
+    link: '/coming/barvsreal/match',
   },
   {
     nameLeft: 'Real Madrid',
@@ -63,6 +70,7 @@ const matchFixture = [
     time: 'June 24,10:00',
     stadium: 'Stadium',
     textLink: 'View Statistics',
+    link: '/coming/barvsreal/match',
   },
 ];
 

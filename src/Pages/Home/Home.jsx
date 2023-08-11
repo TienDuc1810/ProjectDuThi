@@ -12,8 +12,7 @@ const Home = () => {
       <Routes>
         <Route path="/*" element={<Main />} />
       </Routes>
-      <RollTop />
-    </div>
+     </div>
   );
 };
 

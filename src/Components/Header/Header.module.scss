@@ -8,6 +8,7 @@
    backdrop-filter: blur(10px);
    border-bottom: 3px solid #dba504;
    z-index: 10;
+   transition: all 0.3s linear;
    .wrapper {
       display: flex;
       align-items: center;

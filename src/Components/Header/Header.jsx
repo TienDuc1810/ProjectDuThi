@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar';
 import imageLogo from '../../Assets/image/logo';
 import styles from './Header.module.scss';
 import classNames from 'classnames/bind';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -25,9 +26,14 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={cx('header')} style={styleHeader ? { backgroundColor: 'black', transition: 'all 0.3s linear' } : null}>
+    <header
+      className={cx('header')}
+      style={styleHeader ? { backgroundColor: 'black', transition: 'all 0.3s linear' } : null}
+    >
       <div className={cx('wrapper')}>
-        <img src={imageLogo.logo} alt="footballnew" className={cx('logo')} />
+        <Link to="/">
+          <img src={imageLogo.logo} alt="footballnew" className={cx('logo')} />
+        </Link>
         <Navbar />
       </div>
     </header>

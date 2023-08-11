@@ -1,0 +1,49 @@
+.contact {
+    width: 95%;
+    background-color: rgb(62, 62, 62);
+    min-height: 250px;
+    margin: 5px auto;
+    padding: 25px;
+
+    .address,
+    .phone,
+    .email {
+        border: 1px solid #fbc02d;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+
+        h4,
+        p {
+            color: white;
+        }
+
+        a {
+            font-size: 36px;
+            color: #fbc02d;
+        }
+
+        h4 {
+            padding: 15px;
+        }
+    }
+
+    .phone p {
+        cursor: pointer;
+
+        &:hover {
+            color: #fbc02d;
+        }
+    }
+
+    .email p {
+        cursor: pointer;
+
+        &:hover {
+            color: #fbc02d;
+        }
+    }
+}
