@@ -1,0 +1,89 @@
+.container-static {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 64px;
+}
+.match-static {
+  background-image: url(/src/assets/latestnews.jpg);
+  width: 100%;
+  min-width: 375px;
+  margin: 32px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+}
+.team-match {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+.team-match img {
+  width: 24px;
+}
+.text {
+  width: calc(100% / 3);
+  text-align: center;
+}
+.information {
+  background-image: url(/src/assets/heroesBg.jpg);
+  width: 100%;
+  min-width: 375px;
+  margin-top: 32px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.team-infor {
+  width: calc(100% / 2 - 2px);
+}
+.img-team {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0;
+}
+.img-team img {
+  max-width: 70px;
+}
+
+.highlight {
+  color: #fbc02d;
+}
+@media (max-width: 950px) {
+  .container-static {
+    padding: 12px 4px;
+  }
+  .match-static,
+  .information {
+    margin: 24px 0;
+  }
+  .match-static p {
+    font-size: 18px;
+  }
+  .information {
+    flex-direction: column;
+  }
+  .team-infor {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .match-static,
+  .information {
+    margin: 8px 0;
+  }
+}

@@ -1,0 +1,114 @@
+{
+    "Player": [
+        {
+            "IdPlayer": 23,
+            "namePlayer": "Carlo Pinsoglio",
+            "DatePlayer": "30 / 4, 1992",
+            "Location": "Goalie",
+            "Nationality": "Germany",
+            "Height": "1.87",
+            "Slogan": "If you think two steps ahead, you forget what important in the now.",
+            "Img": "https://static.bongda24h.vn/medias/original/2020/9/23/31-CarloPinsoglio-ThuMon.jpg"
+        },
+        {
+            "IdPlayer": 19,
+            "namePlayer": "Leonardo Bonucci",
+            "DatePlayer": "10 / 4, 1996",
+            "Location": "Defender",
+            "Nationality": "Denmark",
+            "Height": "1,88",
+            "Slogan": "He who fights monsters should see to it that he himself does not become a monster.",
+            "Img": "https://static.bongda24h.vn/medias/original/Juventus_Leonardo_Bonucciu_20141107153850.jpg"
+        },
+        {
+            "IdPlayer": 2,
+            "namePlayer": "Mattia De Sciglio",
+            "DatePlayer": "12 / 11, 1998",
+            "Location": "Defender",
+            "Nationality": "France",
+            "Height": "1,78",
+            "Slogan": "we will not repeat the boateng story",
+            "Img": "https://static.bongda24h.vn/medias/original/2020/9/23/2-Mattia-De-Sciglio-HauVe.jpg"
+        },
+        {
+            "IdPlayer": 17,
+            "namePlayer": "Danilo",
+            "DatePlayer": "28 / 12, 1990",
+            "Location": "Defender",
+            "Nationality": "Spain",
+            "Height": "1,89",
+            "Slogan": "I was training with Cristiano Ronaldo, Kaka, and I was only 16 or 17 years old. I was going 120 percent! It was a dream come true.",
+            "Img": "https://image.bongda24h.vn/medias/640x400twebp/standard/2023/08/03/5-0308164540.png"
+        },
+        {
+            "IdPlayer": 24,
+            "namePlayer": "Daniele Rugani",
+            "DatePlayer": "18 / 10, 2003",
+            "Location": "Defender",
+            "Nationality": "Spain",
+            "Height": "1,75",
+            "Slogan": "I dont know why they put my full name as Alex on FIFA. My name is Alejandro, not Alex Alejandro Balde!.",
+            "Img": "https://static.bongda24h.vn/medias/original/2020/9/23/24-Rugani-HauVe.jpg"
+        },
+        {
+            "IdPlayer": 6,
+            "namePlayer": "Danilo",
+            "DatePlayer": "7 / 3, 1999",
+            "Location": "Defender",
+            "Nationality": "Uruguay",
+            "Height": "1.80",
+            "Slogan": "I worked hard to make this opportunity happen. Im very happy and excited. I tried to enjoy it to the fullest.",
+            "Img": "https://static.bongda24h.vn/medias/original/2020/12/10/danilo.jpg"
+        },
+        {
+            "IdPlayer": 19,
+            "namePlayer": "Bremer",
+            "DatePlayer": "19 / 12, 1996",
+            "Location": "Midfielde",
+            "Nationality": "Ivory Coast",
+            "Height": "1,83",
+            "Slogan": "This quote reflects Kessiés pride in his heritage and his commitment to representing his country with respect and dedication.",
+            "Img": "https://static.bongda24h.vn/medias/original/2022/06/30/tong-hop-tin-chuyen-nhuong-arsenal-ngay-06072022.png"
+        },
+        {
+            "IdPlayer": 14,
+            "namePlayer": "Nico Gonzalez",
+            "DatePlayer": "3 / 1, 2002",
+            "Location": "MidfieldeR",
+            "Nationality": "Spain",
+            "Height": "1,88",
+            "Slogan": "Nico and Gavi club ship Rip. Hope we get to see them in Spain NT together at some point. They, obv, will remain friends just not in the same club.",
+            "Img": "https://static.bongda24h.vn/medias/original/2022/06/27/nico-gonzalez_2706154559.jpg"
+        },
+        {
+            "IdPlayer": 4,
+            "namePlayer": "Federico Gatti",
+            "DatePlayer": "21 / 8, 1988 ",
+            "Location": "Striker",
+            "Nationality": "Poland",
+            "Height": "1,85",
+            "Slogan": "Cows milk and soya milk isnt good for me. Almond milk and rice milk is OK. I dont really drink alcohol, either. Maybe wine but only sometimes.",
+            "Img": "https://static.bongda24h.vn/medias/original/2022/07/21/federico-gatti_2107160317.jpg"
+        },
+        {
+            "IdPlayer": 22,
+            "namePlayer": "Raphinha",
+            "DatePlayer": "14 / 12, 1996 ",
+            "Location": "Striker",
+            "Nationality": "Brazil",
+            "Height": "1.76",
+            "Slogan": "You always want to score against the opponent and if its in El Clásico, even more.",
+            "Img": "https://static.bongda24h.vn/medias/original/2022/07/18/raphinha_1807142717.jpg"
+        },
+        {
+            "IdPlayer": 44,
+            "namePlayer": "Nicolo Fagioli",
+            "DatePlayer": "15 / 5, 1997 ",
+            "Location": "Striker",
+            "Nationality": "France",
+            "Height": "1.78",
+            "Slogan": "My dream is to play for Barcelona",
+            "Img": "https://static.bongda24h.vn/medias/original/2022/07/21/nicolo-fagioli_2107161001.jpg"
+        }
+    ]
+}
