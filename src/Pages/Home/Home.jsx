@@ -3,7 +3,6 @@ import Footer from '../../Components/Footer';
 import Header from '../../Components/Header';
 import Main from '../../Components/Main';
 import RollTop from '../../Components/RollTop';
-    import Match from "../MatchStatictics/match-page";
 import './Home.scss';
 
 const Home = () => {
@@ -14,7 +13,6 @@ const Home = () => {
       <Footer />
       <RollTop />
     
-      <Link to="/MatchStatictics">Match</Link>
     
     </div>
   );

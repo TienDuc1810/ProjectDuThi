@@ -1,5 +1,4 @@
 
-import MyRoutes from "./Routes/MyRoutes";
 
 import { Route, Routes } from 'react-router-dom';
 import './App.scss';
@@ -16,7 +15,6 @@ library.add(fab, far, fas);
 function App() {
   return (
     <div className="App">
-      <MyRoutes />
       <Home />
       <Routes>
         <Route path="/" element={<Home />}></Route>
