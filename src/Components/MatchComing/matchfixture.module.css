@@ -1,0 +1,113 @@
+.container-match a {
+  text-decoration: none;
+}
+
+.container-match {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.tab-fixture {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 750px;
+  margin-right: 28px;
+}
+
+.tab-fixture_header {
+  display: flex;
+  position: relative;
+  padding: 8px;
+}
+.tab-fixture_header h2 {
+  width: fit-content;
+  padding: 12px 0;
+  border: 4px solid #fbc02d;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-left: -8px;
+}
+.tab-fixture_header .link {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: 0.3s ease-in-out;
+}
+.tab-fixture_header .link:hover {
+  color: #fbc02d;
+}
+.tab-fixture_schelude {
+  background-image: url(/src/assets/playerdetailsBg.jpg);
+  width: 100%;
+  margin-top: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+}
+
+.tab-point {
+  width: 100%;
+  max-width: 360px;
+}
+
+.tab-point_tables {
+  width: 100%;
+  margin-top: 16px;
+}
+.tables {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+  border: 1px solid #36353552;
+}
+.tables {
+  color: #fbc02d;
+  background-color: black;
+}
+.team {
+  width: 50%;
+}
+.team {
+  position: relative;
+  text-align: center;
+}
+.win-lose {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.more-view {
+  padding: 15px 0 15px;
+  border: 1px solid #36353552;
+  text-align: center;
+}
+
+.link-match {
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+.link-match:hover {
+  color: #fbc02d;
+}
+.team-match {
+  width: 200px;
+}
+@media (max-width: 1000px) {
+  .container-match {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 16px;
+  }
+  .tab-fixture,
+  .tab-point {
+    max-width: 1000px;
+  }
+}

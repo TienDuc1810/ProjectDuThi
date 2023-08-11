@@ -1,0 +1,115 @@
+{
+
+  "Player": [
+    {
+      "IdPlayer": 22,
+      "namePlayer": "Tom Heaton",
+      "DatePlayer": "30 / 4, 1992",
+      "Location": "Goalie",
+      "Nationality": "Germany",
+      "Height": "1.87",
+      "Slogan": "If you think two steps ahead, you forget what important in the now.",
+      "Img": "https://static.bongda24h.vn/medias/original/2021/9/17/22_tomheaton.jpg"
+    },
+    {
+      "IdPlayer": 12,
+      "namePlayer": "Tyrell Malacia",
+      "DatePlayer": "10 / 4, 1996",
+      "Location": "DEFENDER",
+      "Nationality": "Denmark",
+      "Height": "1,88",
+      "Slogan": "He who fights monsters should see to it that he himself does not become a monster.",
+      "Img": "https://static.bongda24h.vn/medias/original/2022/10/21/tyrell-malacia-2110110942.jpg"
+    },
+    {
+      "IdPlayer": 13,
+      "namePlayer": "Eric Bailly",
+      "DatePlayer": "12 / 11, 1998",
+      "Location": "DEFENDER",
+      "Nationality": "France",
+      " Height": "1,78",
+      "Slogan": "we will not repeat the boateng story",
+      "Img": "https://static.bongda24h.vn/medias/original/2022/06/20/diem-tin-bong-da-24h-toi-267-bailly-chua-tu-bo-hy-vong-o-mu.png"
+    },
+    {
+      "  IdPlayer": 42,
+      "namePlayer": "Alvaro Fernandez Carreras",
+      " DatePlayer": "28 / 12, 1990",
+      " Location": "DEFENDER",
+      " Nationality": "Spain",
+      " Height": "1,89",
+      " Slogan": "I was training with Cristiano Ronaldo, Kaka, and I was only 16 or 17 years old. I was going 120 percent! It was a dream come true.",
+      " Img": "https://static.bongda24h.vn/medias/original/2022/06/20/alvaro-fernandez-carreras_2006160530.png"
+    },
+    {
+      " IdPlayer": 8,
+      "  namePlayer": "Bruno Fernandes",
+      "DatePlayer": "18 / 10, 2003",
+      " Location": "DEFENDER",
+      " Nationality": "Spain",
+      " Height": "1,75",
+      " Slogan": "I dont know why they put my full name as Alex on FIFA. My name is Alejandro, not Alex Alejandro Balde!.",
+      " Img": "https://static.bongda24h.vn/medias/original/2021/9/17/18_brunofernandes.jpg"
+    },
+    {
+      " IdPlayer": 34,
+      " namePlayer": "Donny Van de Beek",
+      "  DatePlayer": "7 / 3, 1999",
+      " Location": "DEFENDER",
+      " Nationality": "Uruguay",
+      " Height": "1.80",
+      " Slogan": "I worked hard to make this opportunity happen. Im very happy and excited. I tried to enjoy it to the fullest.",
+      "Img": "https://static.bongda24h.vn/medias/original/2021/9/17/34_donnyvandebeek.jpg"
+    },
+    {
+      " IdPlayer": 19,
+      " namePlayer": "Franck Kessie",
+      " DatePlayer": "19 / 12, 1996",
+      " Location": "MIDFIELDE",
+      " Nationality": "Ivory Coast",
+      " Height": "1,83",
+      " Slogan": "This quote reflects Kessiés pride in his heritage and his commitment to representing his country with respect and dedication.",
+      " Img": "https://static.bongda24h.vn/medias/original/2022/07/19/franck-kessie_1907092736.jpg"
+    },
+    {
+      " IdPlayer": 21,
+      " namePlayer": "Antony",
+      " DatePlayer": "3 / 1, 2002",
+      " Location": "MIDFIELDER",
+      " Nationality": "Spain",
+      " Height": "1,88",
+      " Slogan": "Nico and Gavi club ship Rip. Hope we get to see them in Spain NT together at some point. They, obv, will remain friends just not in the same club.",
+      " Img": "https://static.bongda24h.vn/medias/original/2022/10/21/antony-2110110552.jpg"
+    },
+    {
+      " IdPlayer": 49,
+      " namePlayer": "Alejandro Garnacho",
+      "  DatePlayer": "21 / 8, 1988 ",
+      " Location": "Striker",
+      "  Nationality": "Poland",
+      " Height": "1,85",
+      "  Slogan": "Cows milk and soya milk isnt good for me. Almond milk and rice milk is OK. I dont really drink alcohol, either. Maybe wine but only sometimes.",
+      "  Img": "https://static.bongda24h.vn/medias/original/2022/06/21/alejandro-garnacho_2106135544.jpg"
+    },
+    {
+      " IdPlayer": 49,
+      " namePlayer": "Anthony Martial",
+      " DatePlayer": "14 / 12, 1996 ",
+      " Location": "Striker",
+      " Nationality": "Brazil",
+      " Height": "1.76",
+      " Slogan": "You always want to score against the opponent and if its in El Clásico, even more.",
+      " Img": "https://static.bongda24h.vn/medias/original/2022/10/21/anthony-martial-2110110511.jpg"
+    },
+    {
+      "  IdPlayer": 7,
+      "namePlayer": "Anthony Martial",
+      "  DatePlayer": "15 / 5, 1997 ",
+      " Location": "Striker",
+      " Nationality": "France",
+      " Height": "1.78",
+      "  Slogan": "My dream is to play for Barcelona",
+      " Img": "https://static.bongda24h.vn/medias/original/2022/10/21/anthony-martial-2110110511.jpg"
+    }
+  ]
+}

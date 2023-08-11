@@ -1,3 +1,6 @@
+
+import MyRoutes from "./Routes/MyRoutes";
+
 import { Route, Routes } from 'react-router-dom';
 import './App.scss';
 import Home from './Pages/Home/Home';
@@ -9,14 +12,18 @@ import { far } from '@fortawesome/free-regular-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 library.add(fab, far, fas);
 
+library.add(fab, far, fas);
 function App() {
   return (
     <div className="App">
+      <MyRoutes />
+      <Home />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/regiter" element={<Regiter />}></Route>
       </Routes>
+
     </div>
   );
 }
