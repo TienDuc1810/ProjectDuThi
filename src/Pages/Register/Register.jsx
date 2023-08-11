@@ -4,7 +4,9 @@ import {
     Input,
     Select
 } from 'antd';
-import React, { useState } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import swal from 'sweetalert';
 import './Register.scss';
@@ -47,6 +49,12 @@ const tailFormItemLayout = {
 
 
 const Regiter = () => {
+
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
+
 
     const navigate = useNavigate();
 
@@ -134,7 +142,7 @@ const Regiter = () => {
 
     return (
         <div className="regiter">
-            <div className="regiter-main">
+            <div className="regiter-main" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" >
                 <img src={Logo} alt="" />
                 <hr />
                 <h2>Register</h2>

@@ -1,17 +1,25 @@
-import { Grid, Row, Col } from '../../GridSystem/Grid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import styles from './HightLight.module.scss';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import classNames from 'classnames/bind';
+import React, { useEffect } from 'react';
+import { Col, Grid, Row } from '../../GridSystem/Grid';
 import Title from '../../Title';
+import styles from './HightLight.module.scss';
 
 const cx = classNames.bind(styles);
 
 function HightLight() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <Grid>
       <Row>
         <Col size={['l-12', 'm-12', 's-12']}>
-          <div className={cx('overly-bg')}>
+          <div className={cx('overly-bg')} data-aos="fade-up" data-aos-duration="3000">
             <Grid>
               <Row>
                 <Col size={['l-2', 'm-2', 's-12']}>

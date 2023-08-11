@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classNames from 'classnames/bind';
-import styles from './Footer.module.scss';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { Col, Grid, Row } from '../GridSystem/Grid';
 import Title from '../Title';
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import styles from './Footer.module.scss';
 
 const cx = classNames.bind(styles);
 
@@ -53,35 +53,35 @@ const Footer = () => {
               <Title className={cx('title')} title={'Useful Links'} />
               <div className={cx('content')}>
                 <div className={cx('post-title')}>
-                  <Link className={cx('link1')}>
+                  <Link className={cx('link1')} to={'/'}>
                     <span>
                       <FontAwesomeIcon icon="fa-solid fa-chevron-up" rotation={90} />
                     </span>
                     Home
                   </Link>
                   <div className={cx('underline')}></div>
-                  <Link className={cx('link1')}>
+                  <Link className={cx('link1')} to={'/barcelonafc'}>
                     <span>
                       <FontAwesomeIcon icon="fa-solid fa-chevron-up" rotation={90} />
                     </span>
                     Club List
                   </Link>
                   <div className={cx('underline')}></div>
-                  <Link className={cx('link1')}>
+                  <Link className={cx('link1')} to={'/match'}>
                     <span>
                       <FontAwesomeIcon icon="fa-solid fa-chevron-up" rotation={90} />
                     </span>
                     Match
                   </Link>
                   <div className={cx('underline')}></div>
-                  <Link className={cx('link1')}>
+                  <Link className={cx('link1')} to={'/news'}>
                     <span>
                       <FontAwesomeIcon icon="fa-solid fa-chevron-up" rotation={90} />
                     </span>
                     News
                   </Link>
                   <div className={cx('underline')}></div>
-                  <Link className={cx('link1')}>
+                  <Link className={cx('link1')} to={'/contact'}>
                     <span>
                       <FontAwesomeIcon icon="fa-solid fa-chevron-up" rotation={90} />
                     </span>

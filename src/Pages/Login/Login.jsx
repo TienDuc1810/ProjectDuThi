@@ -1,12 +1,20 @@
 import { LockOutlined, UserOutlined } from '@ant-design/icons';
 import { Button, Checkbox, Form, Input } from 'antd';
-import React from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import { Link, useNavigate } from 'react-router-dom';
 import swal from 'sweetalert';
 import './Login.scss';
 import Logo from './logo.svg';
 
 const Login = () => {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   // navigate
   const navigate = useNavigate();
 
@@ -40,7 +48,7 @@ const Login = () => {
       }).then((willDelete) => {
         if (willDelete) {
           swal(
-            `Ussername: ${JSON.parse(localStorage.getItem('regiter')).username} - Mật khẩu: ${JSON.parse(localStorage.getItem('regiter')).password
+            `Ussername: ${JSON.parse(localStorage.getItem('regiter')).username} - Password: ${JSON.parse(localStorage.getItem('regiter')).password
             }`,
           );
         } else {
@@ -53,7 +61,7 @@ const Login = () => {
 
   return (
     <div className="login">
-      <div className="login-main">
+      <div className="login-main" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <img src={Logo} alt="" />
         <hr />
         <h2>Login</h2>

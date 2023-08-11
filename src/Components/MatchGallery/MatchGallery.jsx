@@ -1,12 +1,20 @@
-import React from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import classNames from 'classnames/bind';
-import styles from './MatchGallery.module.scss';
-import Title from '../Title';
+import React, { useEffect } from "react";
 import { Col, Grid, Row } from '../GridSystem/Grid';
+import Title from '../Title';
+import styles from './MatchGallery.module.scss';
 
 const cx = classNames.bind(styles);
 
 const MatchGallery = () => {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div className={cx('wrapper')}>
       <Grid>
@@ -17,8 +25,8 @@ const MatchGallery = () => {
         </Row>
         <Row className={cx('container')}>
           {Array.from({ length: 8 }, (_, index) => (
-            <Col key={index} size={['l-3', 'm-6', 's-12']}>
-              <img src={`https://keenitsolutions.com/products/html/soccer/images/gallery2/${index + 1}.jpg`} alt="" />
+            <Col key={index} size={['l-3', 'm-6', 's-12']} >
+              <img src={`https://keenitsolutions.com/products/html/soccer/images/gallery2/${index + 1}.jpg`} alt="" data-aos="flip-right" />
             </Col>
           ))}
         </Row>

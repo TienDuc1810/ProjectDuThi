@@ -30,7 +30,7 @@ const Logout = () => {
         // console.log('click', e);
         if (e.key === '1') {
             message.success('Success!');
-            navigate('/profile');
+            navigate('/profiles');
         } else if (e.key === '2') {
             localStorage.setItem("tokens", false);
             message.success('See you again <3');

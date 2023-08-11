@@ -1,14 +1,22 @@
-import styles from './Contact.module.scss';
 import classNames from 'classnames/bind';
+import styles from './Contact.module.scss';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
 import Head from '../../SubBanner/SubBanner';
-import Content from '../Conten/Content';
-import ContactAddress from '../ContactAddress/ContactAddress';
-import Form from '../Form/Form';
 import Title from '../../Title';
+import ContactAddress from '../ContactAddress/ContactAddress';
+import Content from '../Conten/Content';
+import Form from '../Form/Form';
 
 const cx = classNames.bind(styles);
 const Contact = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div className={cx('wrapper')}>
       <Head
@@ -17,7 +25,7 @@ const Contact = () => {
       >
         Contact
       </Head>
-      <div className={cx('container')}>
+      <div className={cx('container')} data-aos="flip-right">
         <Content title={<Title title={'LOCATION AVERAGE'} />}>
           The match you are referring to might be the Copa del Rey (Spanish Cup) semifinal match between Real Madrid and
           Barcelona in 2019. This match ended in a 4-0 victory for Real Madrid, propelling them into the final of the
