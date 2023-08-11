@@ -17,6 +17,8 @@ import Contact from './Components/Bao/Contact/Contact';
 import Posts from './Pages/Posts/Posts';
 import ClubList from './Pages/profile/ClubList/ClubList';
 import History from './Pages/profile/HistoryClub/History';
+import Login from './Pages/Login/Login'
+import Register from './Pages/Register/Register'
 
 library.add(fab, far, fas);
 
@@ -26,8 +28,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        {/* <Route path="/login" element={<Login />}></Route>
-        <Route path="/regiter" element={<Regiter />}></Route> */}
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/register" element={<Register />}></Route>
         <Route path="/match" element={<Match />} />
         <Route path="/coming/barvsreal/match" element={<BarVsRealComming />} />
         <Route path="/result/barvsreal/match" element={<BarVsRealResult />} />

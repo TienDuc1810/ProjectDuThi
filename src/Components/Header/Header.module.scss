@@ -19,7 +19,17 @@
          width: 8rem;
       }
    }
+   
+   
 }
+.login-register {
+   display: flex;
+   align-items: center;
+   column-gap: 12px;
+   .btn {
+      margin-right: 20px;
+   }
+ }
 
 @media (max-width: 739px) {
    .header {
@@ -29,5 +39,8 @@
 
    .logo {
       width: 7rem;
+   }
+   .btnnn {
+      display: none;
    }
 }
