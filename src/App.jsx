@@ -14,6 +14,7 @@ import RollTop from './Components/RollTop';
 import BarVsRealComming from './Components/khai/MatchStatictics/coming/barvsreal/match';
 import BarVsRealResult from './Components/khai/MatchStatictics/result/barvsreal/match';
 import Contact from './Components/Bao/Contact/Contact'
+import Posts from './Pages/Posts/Posts'
 library.add(fab, far, fas);
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/coming/barvsreal/match" element={<BarVsRealComming />} />
         <Route path="/result/barvsreal/match" element={<BarVsRealResult />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/news' element={<Posts />} />
       </Routes>
       <Footer />
       <RollTop />
