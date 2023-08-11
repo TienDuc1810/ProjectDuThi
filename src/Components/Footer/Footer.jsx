@@ -112,16 +112,16 @@ const Footer = () => {
           </p>
         </div>
         <div className={cx('social')}>
-          <a href="#">
+          <a>
             <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
           </a>
-          <a href="#">
+          <a>
             <FontAwesomeIcon icon="fa-brands fa-instagram" />
           </a>
-          <a href="#">
+          <a>
             <FontAwesomeIcon icon="fa-brands fa-twitter" />
           </a>
-          <a href="#">
+          <a>
             <FontAwesomeIcon icon="fa-brands fa-youtube" />
           </a>
         </div>
