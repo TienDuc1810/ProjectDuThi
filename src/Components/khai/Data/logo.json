@@ -1,0 +1,44 @@
+{
+    "Logo": [
+        {
+            "id": "1",
+            "Club": "Barcelona",
+            "Logo": "https://static.bongda24h.vn/Medias/thumnail/2020/7/23/Barcelona.png"
+        },
+        {
+            "id": "2",
+            "Club": "Real Madrid",
+            "Logo": "https://static.bongda24h.vn/Medias/thumnail/2020/7/23/RealMadrid.png"
+        },
+        {
+            "id": "3",
+            "Club": "juventus",
+            "Logo": "https://static.bongda24h.vn/Medias/thumnail/2023/03/23/juventus-2303153222.jpg"
+        },
+        {
+            "id": "4",
+            "Club": "Manchester City",
+            "Logo": "https://static.bongda24h.vn/Medias/thumnail/2017/6/26/manchester-city.jpg"
+        },
+        {
+            "id": "5",
+            "Club": "Manchester United",
+            "Logo": "https://static.bongda24h.vn/Medias/thumnail/2020/7/23/ManUnited.png"
+        },
+        {
+            "id": "6",
+            "Club": "PSG",
+            "Logo": "https://static.bongda24h.vn/Medias/thumnail/2022/11/28/psg-2811105758.png"
+        },
+        {
+            "id": "7",
+            "Club": "Tottenham",
+            "Logo": "https://static.bongda24h.vn/Medias/thumnail/2020/7/23/Totenham.png"
+        },
+        {
+            "id": "8",
+            "Club": "Liverpool",
+            "Logo": "https://static.bongda24h.vn/Medias/thumnail/2020/7/23/Liverpool.png"
+        }
+    ]
+}

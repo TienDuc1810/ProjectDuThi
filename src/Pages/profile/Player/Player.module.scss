@@ -1,0 +1,87 @@
+.Info-soccer {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    
+    &:hover .Infomation {
+        transform: translateY(-73%);
+    }
+
+    .Image-player {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .Infomation {
+        position: absolute;
+        width: 100%;
+        transition: all 0.4s ease 0s;
+        top: 83%;
+        left: 0px;
+        background-color: #fbc02d;
+        opacity: 0.7;
+
+        .Name {
+            margin: 20px 10px 10px;
+            z-index: 1;
+            font-weight: 600;
+            cursor: pointer;
+
+            .a-name {
+                text-decoration: none;
+                color: #000000;
+                font-weight: bolder;
+            }
+        }
+
+        .a-name:hover {
+            color: white;
+        }
+
+        .Bor {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            
+
+            .Key {
+                margin: 5px 0px 5px 10px;
+                font-size: 16px;
+                margin-right: 30px;
+                width: 50%;
+
+                .br {
+                    margin: 5px 0px;
+                }
+            }
+
+            .Value {
+                display: block;
+                font-size: 16px;
+                width: 40%;
+                margin: 5px 30px 5px 0px;
+
+                .br {
+                    margin: 5px 0px;
+                }
+
+                .icon {
+                    display: flex;
+                    width: 100%; 
+
+                    .icon-1 {
+                        cursor: pointer;
+                        width: 30%;
+                    }
+
+                    .icon-1:hover {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

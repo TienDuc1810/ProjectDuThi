@@ -1,0 +1,147 @@
+.Container{
+    max-width: 1300px;
+    margin: 30px auto;
+
+    .Child-container-1{
+        width: 100%;
+        display: flex;
+
+        .item-1{
+            width: 100%;
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .player-info{
+
+                .player-title{
+                    margin-bottom: 17px;
+                    font-size: 25px;
+                    color: #111111;
+                    width: 100%;
+                }
+                .player-position{
+                    margin-bottom: 8px;
+                    font-size: 16px;
+                    color: #505050;
+                }
+                .player-club{
+                    margin-bottom: 12px;
+                    font-size: 16px;
+                    color: #505050;
+                }
+                .icon-social{
+                    .icon{
+                        margin-right: 20px;
+                        color:#337ab7;
+                        cursor: pointer;
+                    }
+                    .icon:hover{
+                        color:#fbc02d;
+                    }
+                }
+            }
+        }
+        .item-2{
+            width: 100%;
+
+            .info-1{
+
+                .title-info{
+                    margin-bottom: 12px;
+                    font-size: 22px;
+                    letter-spacing: 1px;
+                }
+
+                .background-top{
+                    background-color: #fbc02d;
+                    display: flex;
+                    flex-direction: row;
+                    padding: 20px;
+                    margin-bottom: 30px;
+                    display: flex;
+                    justify-content: space-between;
+                    .key-top{
+                        width: 50%;
+
+                        h5{
+                            display: block;
+                            font-weight: 100;
+                            color: #111111;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .value-top{
+                        width: 50%;
+
+                        h5{
+                            display: block;
+                            font-weight: 100;
+                            color: #505050;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .single-text{
+                        width: 70%;
+
+                        h5{
+                            font-style:italic;
+                            font-size: 12px;
+                        }
+
+                        .sigh{
+                            display: flex;
+                            justify-content: space-between;
+
+                            span{
+                                font-size: 14px;
+                                margin-top: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .info-2{
+                .title-info{
+                    margin-bottom: 10px;
+                    font-size: 22px;
+                    letter-spacing: 1px;
+                }
+
+                .background-bottom{
+                    background-color: #fbc02d;
+                    display: flex;
+                    flex-direction: row;
+                    padding: 20px;
+                    margin-bottom: 30px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .key-bottom{
+                        width: 50%;
+                        h5{
+                            display: block;
+                            font-weight: 100;
+                            color: #111111;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .value-bottom{
+                        width: 50%;
+                        h5{
+                            display: block;
+                            font-weight: 100;
+                            color: #505050;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

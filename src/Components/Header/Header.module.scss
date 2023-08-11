@@ -1,0 +1,46 @@
+.header {
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   padding: 14px;
+   background-color: rgba(0, 0, 0, 0.56);
+   backdrop-filter: blur(10px);
+   border-bottom: 3px solid #dba504;
+   z-index: 10;
+   transition: all 0.3s linear;
+   .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1300px;
+      margin: 0 auto;
+      .logo {
+         width: 8rem;
+      }
+   }
+   
+   
+}
+.login-register {
+   display: flex;
+   align-items: center;
+   column-gap: 12px;
+   .btn {
+      margin-right: 20px;
+   }
+ }
+
+@media (max-width: 739px) {
+   .header {
+      background-color: #000000;
+      padding: 10px;
+   }
+
+   .logo {
+      width: 7rem;
+   }
+   .btnnn {
+      display: none;
+   }
+}

@@ -1,0 +1,18 @@
+.splide__pagination {
+   margin-bottom: 20px;
+}
+
+.splide__pagination__page.is-active {
+   width: 10px;
+   border-radius: 10px;
+   margin: 0 5px;
+   background-color: #dba504;
+}
+
+.splide__pagination__page {
+   width: 25px;
+   height: 6px !important;
+   border-radius: 10px;
+   margin: 0 5px;
+   background-color: gray;
+}
