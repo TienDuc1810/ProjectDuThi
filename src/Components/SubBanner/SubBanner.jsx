@@ -1,9 +1,18 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import styles from "./SubBanner.module.scss";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import classNames from "classnames/bind";
+import React, { useEffect } from "react";
+import styles from "./SubBanner.module.scss";
 
 const cx = classNames.bind(styles);
 function SubBanner({ children, url, title }) {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   console.log(url);
   return (
     <div>

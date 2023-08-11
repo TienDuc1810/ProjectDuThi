@@ -2,6 +2,7 @@
   "name": "football-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nguyenducvu268.github.io/football-web/",
   "dependencies": {
     "@emotion/styled": "^11.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -24,6 +25,7 @@
     "axios": "^1.4.0",
     "classnames": "^2.3.2",
     "clsx": "^2.0.0",
+    "gh-pages": "^6.0.0",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -48,7 +50,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
