@@ -3,6 +3,8 @@ import classNames from "classnames/bind";
 import barcelona from "../../../../Data/Barcelona.json";
 import real from "../../../../Data/RealMadrid.json";
 import TabMatchStatic from "../../../../Components/TabMatch/tabmatch-static/tabmatch-static";
+import SubBanner from "../../../../Components/SubBanner/SubBanner";
+import Title from "antd/es/skeleton/Title";
 const cx = classNames.bind(styles);
 
 const information = [
@@ -93,48 +95,57 @@ const logoTwo =
   "https://static.bongda24h.vn/Medias/thumnail/2020/7/23/RealMadrid.png";
 export default function MatchStatic() {
   return (
-    <div className={cx("container-static")}>
-      <h2>Match Statictics</h2>
-
-      <div className={cx("match-static")}>
-        <p className={cx("team-match")}>
-          <span className={cx("highlight", "text")}>
-            Barcelona <img src={logoOne} />
-          </span>
-          <span className={cx("text")}>---</span>
-          <span className={cx("highlight", "text")}>
-            <img src={logoTwo} /> RealMadrid
-          </span>
-        </p>
-        {information.map((value, index) => {
-          return (
-            <TabMatchStatic
-              props={value}
-              index={index}
-              key={index}
-            ></TabMatchStatic>
-          );
-        })}
-      </div>
-      <h2>Line-Up</h2>
-      <div className={cx("information")}>
-        <div className={cx("team-infor")}>
-          <div className={cx("img-team")} style={{ marginLeft: "8px" }}>
-            <img src={logoOne} />
-          </div>
-          {teamOne.map((data, index) => {
-            return <TabMatchStatic props={data} index={index} key={index} />;
+    <>
+      <SubBanner
+        children={"Match Statistics"}
+        url={
+          "https://keenitsolutions.com/products/html/soccer/images/breadcrumbs/point-table.jpg"
+        }
+        title={"Match"}
+      />
+      <div className={cx("container-static")}>
+        <h2>Match Statictics</h2>
+      
+        <div className={cx("match-static")}>
+          <p className={cx("team-match")}>
+            <span className={cx("highlight", "text")}>
+              Barcelona <img src={logoOne} />
+            </span>
+            <span className={cx("text")}>---</span>
+            <span className={cx("highlight", "text")}>
+              <img src={logoTwo} /> RealMadrid
+            </span>
+          </p>
+          {information.map((value, index) => {
+            return (
+              <TabMatchStatic
+                props={value}
+                index={index}
+                key={index}
+              ></TabMatchStatic>
+            );
           })}
         </div>
-        <div className={cx("team-infor")}>
-          <div className={cx("img-team")}>
-            <img src={logoTwo} />
+        <h2>Line-Up</h2>
+        <div className={cx("information")}>
+          <div className={cx("team-infor")}>
+            <div className={cx("img-team")} style={{ marginLeft: "8px" }}>
+              <img src={logoOne} />
+            </div>
+            {teamOne.map((data, index) => {
+              return <TabMatchStatic props={data} index={index} key={index} />;
+            })}
           </div>
-          {teamTwo.map((data, index) => {
-            return <TabMatchStatic props={data} index={index} key={index} />;
-          })}
+          <div className={cx("team-infor")}>
+            <div className={cx("img-team")}>
+              <img src={logoTwo} />
+            </div>
+            {teamTwo.map((data, index) => {
+              return <TabMatchStatic props={data} index={index} key={index} />;
+            })}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

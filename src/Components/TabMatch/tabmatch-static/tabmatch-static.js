@@ -2,7 +2,7 @@ import styles from "./tab-match-static.module.css";
 import classNames from "classnames/bind";
 const cx = classNames.bind(styles);
 
-function Tabs() {}
+
 export default function TabMatch({ props, index }) {
   return (
     <>

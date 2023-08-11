@@ -3,6 +3,7 @@ import classNames from "classnames/bind";
 import TabMatch from "../../Components/TabMatch/tabmatch";
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
+import SubBanner from "../../Components/SubBanner/SubBanner";
 
 const cx = classNames.bind(styles);
 
@@ -21,7 +22,7 @@ const matchFixture = [
     time: "June 20,23:00",
     stadium: "Stadium",
     textLink: "View Statistics",
-    link: "/coming/barvsreal/match",
+    link: "/coming/manvsju/match",
   },
   {
     nameLeft: "Barcelona",
@@ -81,6 +82,7 @@ const result = [
     stadium: "Stadium",
     goals: "3:2",
     textLink: "Result",
+    link: "/result/barvsreal/match",
   },
   {
     nameLeft: "Juventus",
@@ -89,6 +91,7 @@ const result = [
     stadium: "Stadium",
     goals: "2:2",
     textLink: "Result",
+    link: "/result/manvsju/match",
   },
   {
     nameLeft: "Barcelona",
@@ -97,6 +100,7 @@ const result = [
     stadium: "Stadium",
     goals: "1:2",
     textLink: "Result",
+    link: "/result/barvsreal/match",
   },
   {
     nameLeft: "Real Madrid",
@@ -105,6 +109,7 @@ const result = [
     stadium: "Stadium",
     goals: "1:1",
     textLink: "Result",
+    link: "/result/barvsreal/match",
   },
   {
     nameLeft: "Juventus",
@@ -113,6 +118,7 @@ const result = [
     stadium: "Stadium",
     goals: "2:0",
     textLink: "Result",
+    link: "/result/barvsreal/match",
   },
   {
     nameLeft: "Man City",
@@ -121,6 +127,7 @@ const result = [
     stadium: "Stadium",
     goals: "4:2",
     textLink: "Result",
+    link: "/result/barvsreal/match",
   },
   {
     nameLeft: "Juventus",
@@ -129,6 +136,7 @@ const result = [
     stadium: "Stadium",
     goals: "1:2",
     textLink: "Result",
+    link: "/result/barvsreal/match",
   },
   {
     nameLeft: "Real Madrid",
@@ -137,6 +145,7 @@ const result = [
     stadium: "Stadium",
     goals: "1:3",
     textLink: "Result",
+    link: "/result/barvsreal/match",
   },
 ];
 
@@ -153,22 +162,31 @@ export default function Match() {
   };
   return (
     <>
+      <SubBanner
+        children={"Match"}
+        url={
+          "https://keenitsolutions.com/products/html/soccer/images/breadcrumbs/point-table.jpg"
+        }
+        title={"Home"}
+      />
+      <div className={cx("layout")}></div>
       <div className={cx("container")}>
         <div className={cx("nav")}>
           <button
-            style={{ color: isMatch ? "#fbc02d" : "" }}
+            style={{ color: isMatch ? "orange" : "" }}
             onClick={(e) => handClickMatch(e)}
           >
             Match Fixture
           </button>
 
           <button
-            style={{ color: isReSult ? "#fbc02d" : "" }}
+            style={{ color: isReSult ? "orange" : "" }}
             onClick={(e) => handClickResult(e)}
           >
             Result
           </button>
         </div>
+
         <div className={cx("tab-match")}>
           {isMatch
             ? matchFixture.map((data, index) => {
