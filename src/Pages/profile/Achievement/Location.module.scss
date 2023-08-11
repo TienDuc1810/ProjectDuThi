@@ -1,0 +1,136 @@
+.item-1{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    .Choice-info{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #FBC02D;
+      text-decoration: none;
+      margin-right: 45px;
+      padding: 6px 30px;
+      color: #505050;
+      font-weight: 400;
+      font-size: 18px;
+    }
+
+    .Choice-info:hover{
+      color: #FBC02D;
+    }
+  }
+
+  .item-2{
+    width: 100%;
+    background-color: #00000014;
+    display: flex;
+    margin-bottom: 10px;
+
+    .Label-image{
+      display: flex;
+      color:black;
+      font-weight: 600;
+      width: 30%;
+      margin-left: 40px;
+      padding: 10px 0px;
+      font-size: 18px;
+    }
+
+    .Label-name{
+      display: flex;
+      color:black;
+      font-weight: 600;
+      width: 41%;
+      padding: 10px 0px;
+      font-size: 18px;
+    }
+
+    .Label-designation{
+      display: flex;
+      color:black;
+      font-weight: 600;
+      padding: 10px 0px;
+      width: 40%;
+      font-size: 18px;
+    }
+  }
+  .item-3{
+    width: 100%;
+    margin-bottom: 80px;
+
+    .Info-player-a{
+      display: flex;
+      margin-top: 5px;
+      height: 16vh;
+      .Image-player{
+        width: 33%;
+        display: flex;
+        img{
+          width: 12vh;
+          height: 16vh;
+          border: 4px solid #FBC02D;
+        }
+      }
+      
+      .Info-link{
+       display: flex;
+       width: 40%;
+       text-decoration: none;
+       color:black;
+       align-items: center;
+       font-size: 18px;
+      }
+      .Info-link:hover{
+        cursor: pointer;
+        color: #FBC02D;
+      }
+
+      span{
+        display: flex;
+        align-items: center;
+        width: 40%;
+        color: #505050;
+        margin-left: 30px;
+        font-size: 18px;
+      }
+    }
+    .Info-player-b{
+      display: flex;
+      margin-top: 5px;
+      background-color: #00000014;
+      height: 16vh;
+      .Image-player{
+        width: 33%;
+        display: flex;
+        img{
+          width: 12vh;
+          height: 16vh;
+          border: 4px solid #FBC02D;
+  
+        }
+      }
+      .Info-link{
+       display: flex;
+       align-items: center;
+       width: 40%;
+       text-decoration: none;
+       color:black;
+       font-size: 18px;
+      }
+      .Info-link:hover{
+        cursor: pointer;
+        color: #FBC02D;
+      }
+
+      span{
+        display: flex;
+        align-items: center;
+        width: 40%;
+        color: #505050;
+        margin-left: 30px;
+        font-size: 18px;
+      }
+    }
+}

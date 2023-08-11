@@ -65,11 +65,13 @@ function Navbar() {
               {submenuItems.map((subItem) => {
                 const subItemProcessed = subItem.toLowerCase().replace(/\s+/g, '');
                 return (
-                  <li key={subItem} className={cx('submenu-item')}>
-                    <Link to={subItemProcessed} className={cx('submenu-link')}>
-                      {subItem}
-                    </Link>
-                  </li>
+                  <>
+                    <li key={subItem} className={cx('submenu-item')}>
+                      <Link to={subItemProcessed} className={cx('submenu-link')}>
+                        {subItem}
+                      </Link>
+                    </li>
+                  </>
                 );
               })}
             </ul>

@@ -1,0 +1,18 @@
+.Text{
+    display: flex;
+    flex-direction: column;
+    .title-overview{
+        color: #111111;
+        padding-bottom: 26px;
+        font-size: 30px;
+    }
+    .overview-text-1{
+        color: #505050;
+        font-size: 16px;
+    }
+    .overview-text-2{
+        color: #505050;
+        padding: 30px 0px 50px;
+        font-size: 16px;
+    }
+}

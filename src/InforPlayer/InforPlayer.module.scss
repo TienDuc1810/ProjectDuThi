@@ -1,0 +1,50 @@
+.Container {
+    max-width: 1300px;
+    margin: 0 auto;
+
+    .Main {
+        width: 100%;
+        padding: 20px;
+
+        .Comment {
+            display: flex;
+            flex-direction: column;
+
+            .title-comment {
+                color: #111111;
+                padding-bottom: 26px;
+                font-size: 36px;
+            }
+
+            .area-text {
+                width: 100%;
+                height: 145px;
+                border: 1px solid rgba(0, 0, 0, 0.2);
+                padding: 20px 0px 0px 25px;
+                font-size: 18px;
+                font-style: italic;
+            }
+
+            .area-text::placeholder {
+                font-size: 18px;
+                font-style: italic;
+            }
+
+            .submit-button {
+                background-color: #fbc02d;
+                color: #111111;
+                border: none;
+                width: 170px;
+                height: 45px;
+                margin-top: 30px;
+                float: right;
+            }
+
+            .submit-button:hover {
+                background-color: #111111;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}

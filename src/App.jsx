@@ -13,8 +13,11 @@ import Footer from './Components/Footer';
 import RollTop from './Components/RollTop';
 import BarVsRealComming from './Components/khai/MatchStatictics/coming/barvsreal/match';
 import BarVsRealResult from './Components/khai/MatchStatictics/result/barvsreal/match';
-import Contact from './Components/Bao/Contact/Contact'
-import Posts from './Pages/Posts/Posts'
+import Contact from './Components/Bao/Contact/Contact';
+import Posts from './Pages/Posts/Posts';
+import ClubList from './Pages/profile/ClubList/ClubList';
+import History from './Pages/profile/HistoryClub/History';
+
 library.add(fab, far, fas);
 
 function App() {
@@ -28,8 +31,18 @@ function App() {
         <Route path="/match" element={<Match />} />
         <Route path="/coming/barvsreal/match" element={<BarVsRealComming />} />
         <Route path="/result/barvsreal/match" element={<BarVsRealResult />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/news' element={<Posts />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/news" element={<Posts />} />
+        {History.map((item) => {
+          const name = item.name.toLowerCase().replace(/\s+/g, '');
+          return (
+            <Route
+              key={item.id}
+              path={`/${name}`}
+              element={<ClubList text={item.text} name={item.name} url={item.url} />}
+            />
+          );
+        })}
       </Routes>
       <Footer />
       <RollTop />
