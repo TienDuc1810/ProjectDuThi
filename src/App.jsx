@@ -15,7 +15,6 @@ library.add(fab, far, fas);
 function App() {
   return (
     <div className="App">
-      <Home />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         {/* <Route path="/login" element={<Login />}></Route>
