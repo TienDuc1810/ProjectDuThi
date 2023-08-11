@@ -11,7 +11,6 @@ export default function TabMatch({ className, props, index }) {
         <span>{props.goals ? props.goals : 'VS'}</span>
         <span>{props.nameRight}</span>
       </p>
-
       <p className={cx('right')}>
         <span>{props.time}</span>
         <span>{props.stadium}</span>

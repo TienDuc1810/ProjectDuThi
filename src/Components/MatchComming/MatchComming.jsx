@@ -4,6 +4,7 @@ import TabPoint from '../TabPoint/TabPoint';
 import classNames from 'classnames/bind';
 import styles from './MatchComming.module.scss';
 import { Col, Grid, Row } from '../GridSystem';
+import Title from '../Title';
 const cx = classNames.bind(styles);
 
 const matchFixture = [
@@ -146,8 +147,8 @@ export default function MatchComming() {
           <Col size={['l-8', 'm-12', 's-12']}>
             <div className={cx('tab-fixture')}>
               <div className={cx('tab-fixture_header')}>
-                <h2>Match Fixture</h2>
-                <a href="" className={cx('link')}>
+                <Title title={'Match Fixture'} />
+                <a href="#" className={cx('link')}>
                   View More {'>>'}
                 </a>
               </div>
@@ -162,7 +163,7 @@ export default function MatchComming() {
           <Col size={['l-4', 'm-12', 's-12']}>
             <div className={cx('tab-point')}>
               <div className={cx('tab-fixture_header')}>
-                <h2>Point</h2>
+                <Title title={'Point'} />
               </div>
               <div className={cx('tab-point_tables')}>
                 <div className={cx('tables')}>
