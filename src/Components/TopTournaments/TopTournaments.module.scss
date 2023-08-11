@@ -6,14 +6,6 @@
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  .container {
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 30px 12px;
-    .title {
-      color: white;
-    }
-  }
   .overlay {
     position: absolute;
     top: 0;
@@ -22,5 +14,46 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.708);
     backdrop-filter: blur(5px);
+    z-index: 0;
+  }
+  .container {
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px 12px;
+    z-index: 2;
+    .title {
+      color: white;
+    }
+    .trophy {
+      width: 100%;
+      height: 360px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      .img {
+        height: 90%;
+        object-fit: cover;
+        background-color: transparent;
+      }
+      &:hover .trophy-name {
+        top: 81%;
+      }
+      .trophy-name {
+        position: absolute;
+        top: 120%;
+        width: 100%;
+        background-color: #dba504ce;
+        transition: all 0.3s linear;
+        h3 {
+          text-align: center;
+          padding: 20px;
+          font-size: 24px;
+          font-weight: 600;
+        }
+      }
+    }
   }
 }
