@@ -1,0 +1,28 @@
+.tables {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+  border: 1px solid #36353552;
+}
+.team {
+  position: relative;
+  text-align: center;
+  width: 50%;
+}
+.win-lose {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.tables.point {
+  color: #535252;
+}
+.index {
+  position: absolute;
+  left: 16px;
+}
+@media (max-width: 600px) {
+  .team-match {
+    width: 100%;
+  }
+}

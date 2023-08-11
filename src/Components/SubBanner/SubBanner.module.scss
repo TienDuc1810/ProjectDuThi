@@ -1,0 +1,55 @@
+.active {
+  position: relative;
+  width: 100%;
+  height: 270px;
+  color: white;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &::after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    background: linear-gradient(#111111 30%, #fbc02d);
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+  ul {
+    display: flex;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+
+  li {
+    list-style-type: none;
+    margin: 5px;
+
+    &:last-child {
+      color: #fbc02d;
+    }
+  }
+
+  .cactive {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+
+    div {
+      display: flex;
+      font-size: 18px;
+    }
+  }
+}
