@@ -1,0 +1,114 @@
+{
+    "Player": [
+        {
+            "IdPlayer": 1,
+            "namePlayer": "Marc-Andre ter Stegen",
+            "DatePlayer": "30/4/1992",
+            "Location": "Goalie",
+            "Nationality": "Germany",
+            "Height": "1.87",
+            "Slogan": "If you think two steps ahead, you forget what important in the now.",
+            "Img": "https://image.bongda24h.vn/medias/640x359twebp/original/2022/2/28/1.jpg"
+        },
+        {
+            "IdPlayer": 15,
+            "namePlayer": "Andreas Christensen",
+            "DatePlayer": "10/4/1996",
+            "Location": "DEFENDER",
+            "Nationality": "Denmark",
+            "Height": "1,88",
+            "Slogan": "He who fights monsters should see to it that he himself does not become a monster.",
+            "Img": "https://image.bongda24h.vn/medias/640x400twebp/standard/2023/03/24/[getpaidstockcom]-641da9b7c076c-2403204613.jpg"
+        },
+        {
+            "IdPlayer": 23,
+            "namePlayer": "Jules Kounde",
+            "DatePlayer": "12/1/1998",
+            "Location": "DEFENDER",
+            "Nationality": "France",
+            "Height": "1,78",
+            "Slogan": "we will not repeat the boateng story",
+            "Img": "https://image.bongda24h.vn/medias/640x400twebp/standard/2021/7/28/jules-kounde.jpg"
+        },
+        {
+            "IdPlayer": 17,
+            "namePlayer": "Obama",
+            "DatePlayer": "28/12/1990",
+            "Location": "DEFENDER",
+            "Nationality": "Spain",
+            "Height": "1,89",
+            "Slogan": "I was training with Cristiano Ronaldo, Kaka, and I was only 16 or 17 years old. I was going 120 percent! It was a dream come true.",
+            "Img": "https://image.bongda24h.vn/medias/640x400twebp/standard/2023/08/03/5-0308164540.png"
+        },
+        {
+            "IdPlayer": 28,
+            "namePlayer": "Alex Balde",
+            "DatePlayer": "18/10/2003",
+            "Location": "DEFENDER",
+            "Nationality": "Spain",
+            "Height": "1,75",
+            "Slogan": "I dont know why they put my full name as Alex on FIFA. My name is Alejandro, not Alex Alejandro Balde!.",
+            "Img": "https://static.bongda24h.vn/medias/original/2022/07/19/alex-balde_1907091605.jpg"
+        },
+        {
+            "IdPlayer": 4,
+            "namePlayer": "Ronald Araujo",
+            "DatePlayer": "7/3/1999",
+            "Location": "DEFENDER",
+            "Nationality": "Uruguay",
+            "Height": "1.80",
+            "Slogan": "I worked hard to make this opportunity happen. Im very happy and excited. I tried to enjoy it to the fullest.",
+            "Img": "https://vcdn-thethao.vnecdn.net/2021/06/11/E3is4jvWYAournm-jpeg-8684-1623387953.jpg"
+        },
+        {
+            "IdPlayer": 19,
+            "namePlayer": "Franck Kessie",
+            "DatePlayer": "19/12/1996",
+            "Location": "MIDFIELDE",
+            "Nationality": "Ivory Coast",
+            "Height": "1,83",
+            "Slogan": "This quote reflects Kessiés pride in his heritage and his commitment to representing his country with respect and dedication.",
+            "Img": "https://static.bongda24h.vn/medias/original/2022/07/19/franck-kessie_1907092736.jpg"
+        },
+        {
+            "IdPlayer": 14,
+            "namePlayer": "Nico Gonzalez",
+            "DatePlayer": "3/1/2002",
+            "Location": "MIDFIELDER",
+            "Nationality": "Spain",
+            "Height": "1,88",
+            "Slogan": "Nico and Gavi club ship Rip. Hope we get to see them in Spain NT together at some point. They, obv, will remain friends just not in the same club.",
+            "Img": "https://static.bongda24h.vn/medias/original/2022/06/27/nico-gonzalez_2706154559.jpg"
+        },
+        {
+            "IdPlayer": 9,
+            "namePlayer": "Robert Lewandowski",
+            "DatePlayer": "21/8/1988 ",
+            "Location": "Striker",
+            "Nationality": "Poland",
+            "Height": "1,85",
+            "Slogan": "Cows milk and soya milk isnt good for me. Almond milk and rice milk is OK. I dont really drink alcohol, either. Maybe wine but only sometimes.",
+            "Img": "https://static.bongda24h.vn/medias/original/2022/07/19/robert-lewandowski_1907095243.jpg"
+        },
+        {
+            "IdPlayer": 22,
+            "namePlayer": "Raphinha",
+            "DatePlayer": "14/12/1996 ",
+            "Location": "Striker",
+            "Nationality": "Brazil",
+            "Height": "1.76",
+            "Slogan": "You always want to score against the opponent and if its in El Clásico, even more.",
+            "Img": "https://static.bongda24h.vn/medias/original/2022/07/18/raphinha_1807142717.jpg"
+        },
+        {
+            "IdPlayer": 7,
+            "namePlayer": "Ousmane Dembele",
+            "DatePlayer": "15/5/1997 ",
+            "Location": "Striker",
+            "Nationality": "France",
+            "Height": "1.78",
+            "Slogan": "My dream is to play for Barcelona",
+            "Img": "https://cdn.bongdaplus.vn/Assets/Media/2020/09/12/42/dembele.jpg"
+        }
+    ]
+}

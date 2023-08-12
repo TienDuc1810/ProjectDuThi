@@ -22,65 +22,60 @@
     }
   }
 
-  .item-2{
-    width: 100%;
-    background-color: #00000014;
-    display: flex;
-    margin-bottom: 10px;
-
-    .Label-image{
-      display: flex;
-      color:black;
-      font-weight: 600;
-      width: 30%;
-      margin-left: 40px;
-      padding: 10px 0px;
-      font-size: 18px;
-    }
-
-    .Label-name{
-      display: flex;
-      color:black;
-      font-weight: 600;
-      width: 41%;
-      padding: 10px 0px;
-      font-size: 18px;
-    }
-
-    .Label-designation{
-      display: flex;
-      color:black;
-      font-weight: 600;
-      padding: 10px 0px;
-      width: 40%;
-      font-size: 18px;
-    }
-  }
+  
   .item-3{
     width: 100%;
     margin-bottom: 80px;
+    .item-2{
+      background-color: #00000014;
+      display: flex;
+     
+      
+      .Label-image{
+        width: 40%;
+        display: flex;
+        margin-left: 20px;
+      }
+  
+      .Label-name{
+        width: 32%;
+        display: flex;
+        margin-left: 20px;
+      }
+  
+      .Label-designation{
+        width: 20%;
+        display: flex;  
+         
+       
+      }
+    }
 
     .Info-player-a{
       display: flex;
       margin-top: 5px;
-      height: 16vh;
+      height: 100px;
+      
+
       .Image-player{
-        width: 33%;
+        width: 40%;
         display: flex;
         img{
-          width: 12vh;
-          height: 16vh;
+          width: 100px;
+          height: 100px;
+          object-fit: cover;
           border: 4px solid #FBC02D;
         }
       }
       
       .Info-link{
        display: flex;
-       width: 40%;
+       width: 35%;
        text-decoration: none;
        color:black;
        align-items: center;
        font-size: 18px;
+      
       }
       .Info-link:hover{
         cursor: pointer;
@@ -90,31 +85,31 @@
       span{
         display: flex;
         align-items: center;
-        width: 40%;
+        width: 20%;
         color: #505050;
-        margin-left: 30px;
+       
         font-size: 18px;
+    
       }
     }
     .Info-player-b{
       display: flex;
       margin-top: 5px;
       background-color: #00000014;
-      height: 16vh;
+      height: 100px;
       .Image-player{
-        width: 33%;
+        width: 40%;
         display: flex;
         img{
-          width: 12vh;
-          height: 16vh;
+          width: 100px;
+          height: 100px;
           border: 4px solid #FBC02D;
-  
         }
       }
       .Info-link{
        display: flex;
        align-items: center;
-       width: 40%;
+       width: 35%;
        text-decoration: none;
        color:black;
        font-size: 18px;
@@ -127,9 +122,8 @@
       span{
         display: flex;
         align-items: center;
-        width: 40%;
+        width: 20%;
         color: #505050;
-        margin-left: 30px;
         font-size: 18px;
       }
     }

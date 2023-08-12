@@ -1,60 +1,68 @@
-.Container{
-    max-width: 1300px;
+.Container {
+    width: 100%;
     margin: 30px auto;
+    
 
-    .Child-container-1{
+    .Child-container-1 {
         width: 100%;
         display: flex;
 
-        .item-1{
+        .item-1 {
             width: 100%;
-            img{
+
+            img {
                 width: 100%;
+                height: 300px;
                 object-fit: cover;
             }
 
-            .player-info{
+            .player-info {
 
-                .player-title{
+                .player-title {
                     margin-bottom: 17px;
-                    font-size: 25px;
+                    font-size: 20px;
                     color: #111111;
                     width: 100%;
                 }
-                .player-position{
+
+                .player-position {
                     margin-bottom: 8px;
                     font-size: 16px;
                     color: #505050;
                 }
-                .player-club{
+
+                .player-club {
                     margin-bottom: 12px;
                     font-size: 16px;
                     color: #505050;
                 }
-                .icon-social{
-                    .icon{
+
+                .icon-social {
+                    .icon {
                         margin-right: 20px;
-                        color:#337ab7;
+                        color: #337ab7;
                         cursor: pointer;
                     }
-                    .icon:hover{
-                        color:#fbc02d;
+
+                    .icon:hover {
+                        color: #fbc02d;
                     }
                 }
             }
         }
-        .item-2{
+
+        .item-2 {
             width: 100%;
 
-            .info-1{
+            .info-1 {
 
-                .title-info{
+                .title-info {
                     margin-bottom: 12px;
                     font-size: 22px;
                     letter-spacing: 1px;
                 }
 
-                .background-top{
+                .background-top {
                     background-color: #fbc02d;
                     display: flex;
                     flex-direction: row;
@@ -62,10 +70,11 @@
                     margin-bottom: 30px;
                     display: flex;
                     justify-content: space-between;
-                    .key-top{
+
+                    .key-top {
                         width: 50%;
 
-                        h5{
+                        h5 {
                             display: block;
                             font-weight: 100;
                             color: #111111;
@@ -73,10 +82,10 @@
                         }
                     }
 
-                    .value-top{
+                    .value-top {
                         width: 50%;
 
-                        h5{
+                        h5 {
                             display: block;
                             font-weight: 100;
                             color: #505050;
@@ -84,19 +93,19 @@
                         }
                     }
 
-                    .single-text{
+                    .single-text {
                         width: 70%;
 
-                        h5{
-                            font-style:italic;
+                        h5 {
+                            font-style: italic;
                             font-size: 12px;
                         }
 
-                        .sigh{
+                        .sigh {
                             display: flex;
                             justify-content: space-between;
 
-                            span{
+                            span {
                                 font-size: 14px;
                                 margin-top: 25px;
                             }
@@ -105,14 +114,14 @@
                 }
             }
 
-            .info-2{
-                .title-info{
+            .info-2 {
+                .title-info {
                     margin-bottom: 10px;
                     font-size: 22px;
                     letter-spacing: 1px;
                 }
 
-                .background-bottom{
+                .background-bottom {
                     background-color: #fbc02d;
                     display: flex;
                     flex-direction: row;
@@ -121,9 +130,10 @@
                     display: flex;
                     justify-content: space-between;
 
-                    .key-bottom{
+                    .key-bottom {
                         width: 50%;
-                        h5{
+
+                        h5 {
                             display: block;
                             font-weight: 100;
                             color: #111111;
@@ -131,9 +141,10 @@
                         }
                     }
 
-                    .value-bottom{
+                    .value-bottom {
                         width: 50%;
-                        h5{
+
+                        h5 {
                             display: block;
                             font-weight: 100;
                             color: #505050;

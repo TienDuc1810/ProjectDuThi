@@ -2,22 +2,22 @@ import React, { useState } from 'react';
 import classNames from 'classnames/bind';
 import styles from './Information.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Col, Grid, Row } from '../../../GridSystem/Grid'
+import { Col, Grid, Row } from '../../../Components/GridSystem/Grid'
 
 const cx = classNames.bind(styles);
 
-const Information = () => {
+const Information = ({ name, position, clubName, country, height, dayBr, img }) => {
     return (
         <div className={cx('Container')}>
             <Grid>
                 <Row>
                     <Col size={['l-3', 'm-12', 's-12']} className={cx('Child-container-1')}>
                         <div className={cx('item-1')}>
-                            <img src="https://keenitsolutions.com/products/html/soccer/images/team/team-single.jpg" />
+                            <img src={img} />
                             <div className={cx('player-info')}>
-                                <h5 className={cx('player-title')}>Masud Rana</h5>
-                                <span className={cx('player-position')}>Stricker</span>
-                                <div className={cx('player-club')}>Mirpur FC</div>
+                                <h5 className={cx('player-title')}>{name}</h5>
+                                <span className={cx('player-position')}>{position}</span>
+                                <div className={cx('player-club')}>Barcelona FC</div>
                                 <div className={cx('icon-social')}>
                                     <span className={cx('icon')}><FontAwesomeIcon icon="fa-brands fa-facebook-f" size="sm" /></span>
                                     <span className={cx('icon')}><FontAwesomeIcon icon="fa-brands fa-twitter" size="sm" /></span>
@@ -39,16 +39,16 @@ const Information = () => {
                                         <h5>Citizenship:</h5>
                                     </div>
                                     <div className={cx('value-top')}>
-                                        <h5>Sep 31,1988</h5>
-                                        <h5>72kg</h5>
-                                        <h5>182cm</h5>
-                                        <h5>Linkuije, Badda</h5>
-                                        <h5>Badda</h5>
+                                        <h5>{dayBr}</h5>
+                                        <h5>75kg</h5>
+                                        <h5>{height}</h5>
+                                        <h5>{country}</h5>
+                                        <h5>{clubName}</h5>
                                     </div>
                                     <div className={cx('single-text')}>
-                                        <h5>"Lorem ipsum dolor sit amet, consectetur adip isc ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"</h5>
+                                        <h5>"Known for his incredible speed, skill, and goal-scoring prowess, for several top clubs, including Manchester United and Real Madrid."</h5>
                                         <div className={cx('sigh')}>
-                                            <span>Masud Rana</span>
+                                            <span>{name}</span>
                                             <img src="https://keenitsolutions.com/products/html/soccer/images/team/team-single-sign.png" />
                                         </div>
                                     </div>
@@ -73,7 +73,7 @@ const Information = () => {
                                         <h5>4 Goals (13)</h5>
                                         <h5>5 Goals (7)</h5>
                                         <h5>1 Red, 3 Yellow</h5>
-                                        <h5>Badda FC</h5>
+                                        <h5>Barcelona FC</h5>
                                         <h5>Kapa FC</h5>
                                         <h5>March 21, 2005</h5>
                                     </div>

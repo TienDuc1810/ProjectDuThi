@@ -21,7 +21,8 @@
         justify-content: center;
 
         img {
-          height: auto;
+          max-height: 200px;
+          max-width: 100px;
         }
 
         h2 {
