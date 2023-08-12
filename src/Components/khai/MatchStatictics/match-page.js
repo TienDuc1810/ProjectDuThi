@@ -2,7 +2,6 @@ import styles from './match-page.module.css';
 import classNames from 'classnames/bind';
 import TabMatch from '../TabMatch/tabmatch';
 import { useState } from 'react';
-import { Route, Routes } from 'react-router-dom';
 import SubBanner from '../../SubBanner/SubBanner';
 
 const cx = classNames.bind(styles);

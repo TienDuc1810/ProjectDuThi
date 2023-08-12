@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames/bind';
 import styles from './Player.module.scss';
@@ -14,7 +13,7 @@ const Player = ({ namePlayer, DatePlayer, Location, IdPlayer, Img, Nationality }
         <div className={cx('Info-soccer')}>
             <div className={cx('aaa')}>
                 <div className={cx('Image-player')}>
-                    <img src={Img} />
+                    <img src={Img} alt='hinh'/>
                 </div>
             </div>
             <div className={cx('Infomation')}>

@@ -2,7 +2,7 @@
   "name": "football-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nguyenducvu268.github.io/football-web/",
+  "homepage": "https://nguyenducvu268.github.io/",
   "dependencies": {
     "@emotion/styled": "^11.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
