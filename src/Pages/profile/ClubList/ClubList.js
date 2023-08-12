@@ -11,6 +11,8 @@ const cx = classNames.bind(styles);
 const ClubList = () => {
     return (
         <>
+        <div className={cx('wrapper')}>
+
             <SubBanner url={'https://images.livemint.com/img/2022/12/06/1600x900/Stadium_974_1670308763958_1670308770302_1670308770302.jpg'} title={'Team'} children={'Barcelona Fc'} />
             <div className={cx('ClubList-container')}>
                 <div className={cx('Child-container')}>
@@ -18,6 +20,7 @@ const ClubList = () => {
                     <Location />
                 </div>
             </div >
+        </div>
         </>
     )
 }
